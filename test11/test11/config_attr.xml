@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2005 sp2 U (http://www.altova.com) by any (Ru-Board) -->
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by xiao (xiao) -->
+<student>
+  <stu id ="1">
+    <name>jinzi1</name>
+    <grade shuxue = "97.4" yuwen ="100" yingyu ="36.4" />
+    <info weight ="60" height="198"/>
+  </stu>
+  <stu id ="2">
+    <name>jinzi2</name>
+    <grade shuxue = "52.4" yuwen ="72.5" yingyu ="99" />
+    <info weight ="57" height="165"/>
+  </stu>
+  <stu id ="3">
+    <name>jinzi3</name>
+    <grade shuxue = "100" yuwen ="100" yingyu ="100" />
+    <info weight ="68" height="171"/>
+  </stu>
+  <stu id ="4">
+    <name>jinzi4</name>
+    <grade shuxue = "88" yuwen ="66" yingyu ="77" />
+    <info weight ="70" height="182"/>
+  </stu>
+</student>

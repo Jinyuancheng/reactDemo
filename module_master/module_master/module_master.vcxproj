@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{825864ef-cb88-4a3d-8b75-b8aebe3c5111}</ProjectGuid>
+    <Keyword>Linux</Keyword>
+    <RootNamespace>module_master</RootNamespace>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <ApplicationType>Linux</ApplicationType>
+    <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
+    <TargetLinuxPlatform>Generic</TargetLinuxPlatform>
+    <LinuxProjectType>{2238F9CD-F817-4ECC-BD14-2524D2669B35}</LinuxProjectType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <ItemGroup>
+    <ClCompile Include="contrib\hiredis\Hiredis.cc" />
+    <ClCompile Include="contrib\hiredis\mrediscli.cc" />
+    <ClCompile Include="contrib\thrift\tests\echo\EchoServer.cc" />
+    <ClCompile Include="contrib\thrift\tests\ping\PingServer.cc" />
+    <ClCompile Include="contrib\thrift\ThriftConnection.cc" />
+    <ClCompile Include="contrib\thrift\ThriftServer.cc" />
+    <ClCompile Include="examples\ace\logging\client.cc" />
+    <ClCompile Include="examples\ace\logging\server.cc" />
+    <ClCompile Include="examples\ace\ttcp\common.cc" />
+    <ClCompile Include="examples\ace\ttcp\main.cc" />
+    <ClCompile Include="examples\ace\ttcp\ttcp.cc" />
+    <ClCompile Include="examples\ace\ttcp\ttcp_asio_async.cc" />
+    <ClCompile Include="examples\ace\ttcp\ttcp_asio_sync.cc" />
+    <ClCompile Include="examples\ace\ttcp\ttcp_blocking.cc" />
+    <ClCompile Include="examples\asio\chat\client.cc" />
+    <ClCompile Include="examples\asio\chat\loadtest.cc" />
+    <ClCompile Include="examples\asio\chat\server.cc" />
+    <ClCompile Include="examples\asio\chat\server_threaded.cc" />
+    <ClCompile Include="examples\asio\chat\server_threaded_efficient.cc" />
+    <ClCompile Include="examples\asio\chat\server_threaded_highperformance.cc" />
+    <ClCompile Include="examples\asio\tutorial\timer2\timer.cc" />
+    <ClCompile Include="examples\asio\tutorial\timer3\timer.cc" />
+    <ClCompile Include="examples\asio\tutorial\timer4\timer.cc" />
+    <ClCompile Include="examples\asio\tutorial\timer5\timer.cc" />
+    <ClCompile Include="examples\asio\tutorial\timer6\timer.cc" />
+    <ClCompile Include="examples\cdns\dns.cc" />
+    <ClCompile Include="examples\cdns\Resolver.cc" />
+    <ClCompile Include="examples\curl\Curl.cc" />
+    <ClCompile Include="examples\curl\download.cc" />
+    <ClCompile Include="examples\curl\mcurl.cc" />
+    <ClCompile Include="examples\fastcgi\fastcgi.cc" />
+    <ClCompile Include="examples\fastcgi\fastcgi_test.cc" />
+    <ClCompile Include="examples\filetransfer\download.cc" />
+    <ClCompile Include="examples\filetransfer\download2.cc" />
+    <ClCompile Include="examples\filetransfer\download3.cc" />
+    <ClCompile Include="examples\hub\codec.cc" />
+    <ClCompile Include="examples\hub\hub.cc" />
+    <ClCompile Include="examples\hub\pub.cc" />
+    <ClCompile Include="examples\hub\pubsub.cc" />
+    <ClCompile Include="examples\hub\sub.cc" />
+    <ClCompile Include="examples\idleconnection\echo.cc" />
+    <ClCompile Include="examples\idleconnection\main.cc" />
+    <ClCompile Include="examples\idleconnection\sortedlist.cc" />
+    <ClCompile Include="examples\maxconnection\echo.cc" />
+    <ClCompile Include="examples\maxconnection\main.cc" />
+    <ClCompile Include="examples\memcached\client\bench.cc" />
+    <ClCompile Include="examples\memcached\server\footprint_test.cc" />
+    <ClCompile Include="examples\memcached\server\Item.cc" />
+    <ClCompile Include="examples\memcached\server\MemcacheServer.cc" />
+    <ClCompile Include="examples\memcached\server\server.cc" />
+    <ClCompile Include="examples\memcached\server\Session.cc" />
+    <ClCompile Include="examples\multiplexer\demux.cc" />
+    <ClCompile Include="examples\multiplexer\multiplexer.cc" />
+    <ClCompile Include="examples\multiplexer\multiplexer_simple.cc" />
+    <ClCompile Include="examples\netty\discard\client.cc" />
+    <ClCompile Include="examples\netty\discard\server.cc" />
+    <ClCompile Include="examples\netty\echo\client.cc" />
+    <ClCompile Include="examples\netty\echo\server.cc" />
+    <ClCompile Include="examples\netty\echo\server2.cc" />
+    <ClCompile Include="examples\netty\uptime\uptime.cc" />
+    <ClCompile Include="examples\pingpong\bench.cc" />
+    <ClCompile Include="examples\pingpong\client.cc" />
+    <ClCompile Include="examples\pingpong\server.cc" />
+    <ClCompile Include="examples\procmon\dummyload.cc" />
+    <ClCompile Include="examples\procmon\plot.cc" />
+    <ClCompile Include="examples\procmon\plot_test.cc" />
+    <ClCompile Include="examples\procmon\procmon.cc" />
+    <ClCompile Include="examples\protobuf\codec\client.cc" />
+    <ClCompile Include="examples\protobuf\codec\codec.cc" />
+    <ClCompile Include="examples\protobuf\codec\codec_test.cc" />
+    <ClCompile Include="examples\protobuf\codec\dispatcher_lite_test.cc" />
+    <ClCompile Include="examples\protobuf\codec\dispatcher_test.cc" />
+    <ClCompile Include="examples\protobuf\codec\server.cc" />
+    <ClCompile Include="examples\protobuf\resolver\client.cc" />
+    <ClCompile Include="examples\protobuf\resolver\server.cc" />
+    <ClCompile Include="examples\protobuf\rpcbalancer\balancer.cc" />
+    <ClCompile Include="examples\protobuf\rpcbalancer\balancer_raw.cc" />
+    <ClCompile Include="examples\protobuf\rpcbench\client.cc" />
+    <ClCompile Include="examples\protobuf\rpcbench\server.cc" />
+    <ClCompile Include="examples\protobuf\rpc\client.cc" />
+    <ClCompile Include="examples\protobuf\rpc\server.cc" />
+    <ClCompile Include="examples\roundtrip\roundtrip.cc" />
+    <ClCompile Include="examples\roundtrip\roundtrip_udp.cc" />
+    <ClCompile Include="examples\shorturl\shorturl.cc" />
+    <ClCompile Include="examples\simple\allinone\allinone.cc" />
+    <ClCompile Include="examples\simple\chargenclient\chargenclient.cc" />
+    <ClCompile Include="examples\simple\chargen\chargen.cc" />
+    <ClCompile Include="examples\simple\chargen\main.cc" />
+    <ClCompile Include="examples\simple\daytime\daytime.cc" />
+    <ClCompile Include="examples\simple\daytime\main.cc" />
+    <ClCompile Include="examples\simple\discard\discard.cc" />
+    <ClCompile Include="examples\simple\discard\main.cc" />
+    <ClCompile Include="examples\simple\echo\echo.cc" />
+    <ClCompile Include="examples\simple\echo\main.cc" />
+    <ClCompile Include="examples\simple\timeclient\timeclient.cc" />
+    <ClCompile Include="examples\simple\time\main.cc" />
+    <ClCompile Include="examples\simple\time\time.cc" />
+    <ClCompile Include="examples\socks4a\balancer.cc" />
+    <ClCompile Include="examples\socks4a\socks4a.cc" />
+    <ClCompile Include="examples\socks4a\tcprelay.cc" />
+    <ClCompile Include="examples\sudoku\batch.cc" />
+    <ClCompile Include="examples\sudoku\loadtest.cc" />
+    <ClCompile Include="examples\sudoku\pipeline.cc" />
+    <ClCompile Include="examples\sudoku\server_basic.cc" />
+    <ClCompile Include="examples\sudoku\server_hybrid.cc" />
+    <ClCompile Include="examples\sudoku\server_multiloop.cc" />
+    <ClCompile Include="examples\sudoku\server_prod.cc" />
+    <ClCompile Include="examples\sudoku\server_threadpool.cc" />
+    <ClCompile Include="examples\sudoku\stat_unittest.cc" />
+    <ClCompile Include="examples\sudoku\sudoku.cc" />
+    <ClCompile Include="examples\twisted\finger\finger01.cc" />
+    <ClCompile Include="examples\twisted\finger\finger02.cc" />
+    <ClCompile Include="examples\twisted\finger\finger03.cc" />
+    <ClCompile Include="examples\twisted\finger\finger04.cc" />
+    <ClCompile Include="examples\twisted\finger\finger05.cc" />
+    <ClCompile Include="examples\twisted\finger\finger06.cc" />
+    <ClCompile Include="examples\twisted\finger\finger07.cc" />
+    <ClCompile Include="examples\wordcount\hasher.cc" />
+    <ClCompile Include="examples\wordcount\receiver.cc" />
+    <ClCompile Include="examples\zeromq\local_lat.cc" />
+    <ClCompile Include="examples\zeromq\remote_lat.cc" />
+    <ClCompile Include="main.cc" />
+    <ClCompile Include="muduo\base\AsyncLogging.cc" />
+    <ClCompile Include="muduo\base\Condition.cc" />
+    <ClCompile Include="muduo\base\CountDownLatch.cc" />
+    <ClCompile Include="muduo\base\CurrentThread.cc" />
+    <ClCompile Include="muduo\base\Date.cc" />
+    <ClCompile Include="muduo\base\Exception.cc" />
+    <ClCompile Include="muduo\base\FileUtil.cc" />
+    <ClCompile Include="muduo\base\LogFile.cc" />
+    <ClCompile Include="muduo\base\Logging.cc" />
+    <ClCompile Include="muduo\base\LogStream.cc" />
+    <ClCompile Include="muduo\base\ProcessInfo.cc" />
+    <ClCompile Include="muduo\base\tests\AsyncLogging_test.cc" />
+    <ClCompile Include="muduo\base\tests\Atomic_unittest.cc" />
+    <ClCompile Include="muduo\base\tests\BlockingQueue_bench.cc" />
+    <ClCompile Include="muduo\base\tests\BlockingQueue_test.cc" />
+    <ClCompile Include="muduo\base\tests\BoundedBlockingQueue_test.cc" />
+    <ClCompile Include="muduo\base\tests\Date_unittest.cc" />
+    <ClCompile Include="muduo\base\tests\Exception_test.cc" />
+    <ClCompile Include="muduo\base\tests\FileUtil_test.cc" />
+    <ClCompile Include="muduo\base\tests\Fork_test.cc" />
+    <ClCompile Include="muduo\base\tests\GzipFile_test.cc" />
+    <ClCompile Include="muduo\base\tests\LogFile_test.cc" />
+    <ClCompile Include="muduo\base\tests\Logging_test.cc" />
+    <ClCompile Include="muduo\base\tests\LogStream_bench.cc" />
+    <ClCompile Include="muduo\base\tests\LogStream_test.cc" />
+    <ClCompile Include="muduo\base\tests\Mutex_test.cc" />
+    <ClCompile Include="muduo\base\tests\ProcessInfo_test.cc" />
+    <ClCompile Include="muduo\base\tests\SingletonThreadLocal_test.cc" />
+    <ClCompile Include="muduo\base\tests\Singleton_test.cc" />
+    <ClCompile Include="muduo\base\tests\ThreadLocalSingleton_test.cc" />
+    <ClCompile Include="muduo\base\tests\ThreadLocal_test.cc" />
+    <ClCompile Include="muduo\base\tests\ThreadPool_test.cc" />
+    <ClCompile Include="muduo\base\tests\Thread_bench.cc" />
+    <ClCompile Include="muduo\base\tests\Thread_test.cc" />
+    <ClCompile Include="muduo\base\tests\Timestamp_unittest.cc" />
+    <ClCompile Include="muduo\base\tests\TimeZone_unittest.cc" />
+    <ClCompile Include="muduo\base\Thread.cc" />
+    <ClCompile Include="muduo\base\ThreadPool.cc" />
+    <ClCompile Include="muduo\base\Timestamp.cc" />
+    <ClCompile Include="muduo\base\TimeZone.cc" />
+    <ClCompile Include="muduo\net\Acceptor.cc" />
+    <ClCompile Include="muduo\net\boilerplate.cc" />
+    <ClCompile Include="muduo\net\Buffer.cc" />
+    <ClCompile Include="muduo\net\Channel.cc" />
+    <ClCompile Include="muduo\net\Connector.cc" />
+    <ClCompile Include="muduo\net\EventLoop.cc" />
+    <ClCompile Include="muduo\net\EventLoopThread.cc" />
+    <ClCompile Include="muduo\net\EventLoopThreadPool.cc" />
+    <ClCompile Include="muduo\net\http\HttpContext.cc" />
+    <ClCompile Include="muduo\net\http\HttpResponse.cc" />
+    <ClCompile Include="muduo\net\http\HttpServer.cc" />
+    <ClCompile Include="muduo\net\http\tests\HttpRequest_unittest.cc" />
+    <ClCompile Include="muduo\net\http\tests\HttpServer_test.cc" />
+    <ClCompile Include="muduo\net\InetAddress.cc" />
+    <ClCompile Include="muduo\net\inspect\Inspector.cc" />
+    <ClCompile Include="muduo\net\inspect\PerformanceInspector.cc" />
+    <ClCompile Include="muduo\net\inspect\ProcessInspector.cc" />
+    <ClCompile Include="muduo\net\inspect\SystemInspector.cc" />
+    <ClCompile Include="muduo\net\inspect\tests\Inspector_test.cc" />
+    <ClCompile Include="muduo\net\Poller.cc" />
+    <ClCompile Include="muduo\net\poller\DefaultPoller.cc" />
+    <ClCompile Include="muduo\net\poller\EPollPoller.cc" />
+    <ClCompile Include="muduo\net\poller\PollPoller.cc" />
+    <ClCompile Include="muduo\net\protobuf\ProtobufCodecLite.cc" />
+    <ClCompile Include="muduo\net\protorpc\RpcChannel.cc" />
+    <ClCompile Include="muduo\net\protorpc\RpcCodec.cc" />
+    <ClCompile Include="muduo\net\protorpc\RpcCodec_test.cc" />
+    <ClCompile Include="muduo\net\protorpc\RpcServer.cc" />
+    <ClCompile Include="muduo\net\Socket.cc" />
+    <ClCompile Include="muduo\net\SocketsOps.cc" />
+    <ClCompile Include="muduo\net\TcpClient.cc" />
+    <ClCompile Include="muduo\net\TcpConnection.cc" />
+    <ClCompile Include="muduo\net\TcpServer.cc" />
+    <ClCompile Include="muduo\net\tests\Buffer_unittest.cc" />
+    <ClCompile Include="muduo\net\tests\Channel_test.cc" />
+    <ClCompile Include="muduo\net\tests\EchoClient_unittest.cc" />
+    <ClCompile Include="muduo\net\tests\EchoServer_unittest.cc" />
+    <ClCompile Include="muduo\net\tests\EventLoopThreadPool_unittest.cc" />
+    <ClCompile Include="muduo\net\tests\EventLoopThread_unittest.cc" />
+    <ClCompile Include="muduo\net\tests\EventLoop_unittest.cc" />
+    <ClCompile Include="muduo\net\tests\InetAddress_unittest.cc" />
+    <ClCompile Include="muduo\net\tests\TcpClient_reg1.cc" />
+    <ClCompile Include="muduo\net\tests\TcpClient_reg2.cc" />
+    <ClCompile Include="muduo\net\tests\TcpClient_reg3.cc" />
+    <ClCompile Include="muduo\net\tests\TimerQueue_unittest.cc" />
+    <ClCompile Include="muduo\net\tests\ZlibStream_unittest.cc" />
+    <ClCompile Include="muduo\net\Timer.cc" />
+    <ClCompile Include="muduo\net\TimerQueue.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="contrib\hiredis\Hiredis.h" />
+    <ClInclude Include="contrib\thrift\ThriftConnection.h" />
+    <ClInclude Include="contrib\thrift\ThriftServer.h" />
+    <ClInclude Include="examples\ace\ttcp\common.h" />
+    <ClInclude Include="examples\asio\chat\codec.h" />
+    <ClInclude Include="examples\cdns\Resolver.h" />
+    <ClInclude Include="examples\curl\Curl.h" />
+    <ClInclude Include="examples\fastcgi\fastcgi.h" />
+    <ClInclude Include="examples\hub\codec.h" />
+    <ClInclude Include="examples\hub\pubsub.h" />
+    <ClInclude Include="examples\idleconnection\echo.h" />
+    <ClInclude Include="examples\maxconnection\echo.h" />
+    <ClInclude Include="examples\memcached\server\Item.h" />
+    <ClInclude Include="examples\memcached\server\MemcacheServer.h" />
+    <ClInclude Include="examples\memcached\server\Session.h" />
+    <ClInclude Include="examples\procmon\plot.h" />
+    <ClInclude Include="examples\protobuf\codec\codec.h" />
+    <ClInclude Include="examples\protobuf\codec\dispatcher.h" />
+    <ClInclude Include="examples\protobuf\codec\dispatcher_lite.h" />
+    <ClInclude Include="examples\simple\chargen\chargen.h" />
+    <ClInclude Include="examples\simple\daytime\daytime.h" />
+    <ClInclude Include="examples\simple\discard\discard.h" />
+    <ClInclude Include="examples\simple\echo\echo.h" />
+    <ClInclude Include="examples\simple\time\time.h" />
+    <ClInclude Include="examples\socks4a\tunnel.h" />
+    <ClInclude Include="examples\sudoku\percentile.h" />
+    <ClInclude Include="examples\sudoku\stat.h" />
+    <ClInclude Include="examples\sudoku\sudoku.h" />
+    <ClInclude Include="examples\wordcount\hash.h" />
+    <ClInclude Include="muduo\base\AsyncLogging.h" />
+    <ClInclude Include="muduo\base\Atomic.h" />
+    <ClInclude Include="muduo\base\BlockingQueue.h" />
+    <ClInclude Include="muduo\base\BoundedBlockingQueue.h" />
+    <ClInclude Include="muduo\base\Condition.h" />
+    <ClInclude Include="muduo\base\copyable.h" />
+    <ClInclude Include="muduo\base\CountDownLatch.h" />
+    <ClInclude Include="muduo\base\CurrentThread.h" />
+    <ClInclude Include="muduo\base\Date.h" />
+    <ClInclude Include="muduo\base\Exception.h" />
+    <ClInclude Include="muduo\base\FileUtil.h" />
+    <ClInclude Include="muduo\base\GzipFile.h" />
+    <ClInclude Include="muduo\base\LogFile.h" />
+    <ClInclude Include="muduo\base\Logging.h" />
+    <ClInclude Include="muduo\base\LogStream.h" />
+    <ClInclude Include="muduo\base\Mutex.h" />
+    <ClInclude Include="muduo\base\noncopyable.h" />
+    <ClInclude Include="muduo\base\ProcessInfo.h" />
+    <ClInclude Include="muduo\base\Singleton.h" />
+    <ClInclude Include="muduo\base\StringPiece.h" />
+    <ClInclude Include="muduo\base\Thread.h" />
+    <ClInclude Include="muduo\base\ThreadLocal.h" />
+    <ClInclude Include="muduo\base\ThreadLocalSingleton.h" />
+    <ClInclude Include="muduo\base\ThreadPool.h" />
+    <ClInclude Include="muduo\base\Timestamp.h" />
+    <ClInclude Include="muduo\base\TimeZone.h" />
+    <ClInclude Include="muduo\base\Types.h" />
+    <ClInclude Include="muduo\base\WeakCallback.h" />
+    <ClInclude Include="muduo\net\Acceptor.h" />
+    <ClInclude Include="muduo\net\boilerplate.h" />
+    <ClInclude Include="muduo\net\Buffer.h" />
+    <ClInclude Include="muduo\net\Callbacks.h" />
+    <ClInclude Include="muduo\net\Channel.h" />
+    <ClInclude Include="muduo\net\Connector.h" />
+    <ClInclude Include="muduo\net\Endian.h" />
+    <ClInclude Include="muduo\net\EventLoop.h" />
+    <ClInclude Include="muduo\net\EventLoopThread.h" />
+    <ClInclude Include="muduo\net\EventLoopThreadPool.h" />
+    <ClInclude Include="muduo\net\http\HttpContext.h" />
+    <ClInclude Include="muduo\net\http\HttpRequest.h" />
+    <ClInclude Include="muduo\net\http\HttpResponse.h" />
+    <ClInclude Include="muduo\net\http\HttpServer.h" />
+    <ClInclude Include="muduo\net\InetAddress.h" />
+    <ClInclude Include="muduo\net\inspect\Inspector.h" />
+    <ClInclude Include="muduo\net\inspect\PerformanceInspector.h" />
+    <ClInclude Include="muduo\net\inspect\ProcessInspector.h" />
+    <ClInclude Include="muduo\net\inspect\SystemInspector.h" />
+    <ClInclude Include="muduo\net\Poller.h" />
+    <ClInclude Include="muduo\net\poller\EPollPoller.h" />
+    <ClInclude Include="muduo\net\poller\PollPoller.h" />
+    <ClInclude Include="muduo\net\protobuf\BufferStream.h" />
+    <ClInclude Include="muduo\net\protobuf\ProtobufCodecLite.h" />
+    <ClInclude Include="muduo\net\protorpc\google-inl.h" />
+    <ClInclude Include="muduo\net\protorpc\RpcChannel.h" />
+    <ClInclude Include="muduo\net\protorpc\RpcCodec.h" />
+    <ClInclude Include="muduo\net\protorpc\RpcServer.h" />
+    <ClInclude Include="muduo\net\Socket.h" />
+    <ClInclude Include="muduo\net\SocketsOps.h" />
+    <ClInclude Include="muduo\net\TcpClient.h" />
+    <ClInclude Include="muduo\net\TcpConnection.h" />
+    <ClInclude Include="muduo\net\TcpServer.h" />
+    <ClInclude Include="muduo\net\Timer.h" />
+    <ClInclude Include="muduo\net\TimerId.h" />
+    <ClInclude Include="muduo\net\TimerQueue.h" />
+    <ClInclude Include="muduo\net\ZlibStream.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="allrules.mk" />
+    <None Include="makefile" />
+  </ItemGroup>
+  <ItemDefinitionGroup />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

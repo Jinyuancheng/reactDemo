@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="1.txt" />
+    <Text Include="change.log" />
+    <Text Include="coderules.txt" />
+    <Text Include="filelist.txt" />
+    <Text Include="install.txt" />
+    <Text Include="jconfig.txt" />
+    <Text Include="jdosaobj.txt" />
+    <Text Include="libjpeg.txt" />
+    <Text Include="structure.txt" />
+    <Text Include="usage.txt" />
+    <Text Include="wizard.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="aclocal.m4" />
+    <None Include="ar-lib" />
+    <None Include="cjpeg.1" />
+    <None Include="compile" />
+    <None Include="config.guess" />
+    <None Include="config.sub" />
+    <None Include="configure" />
+    <None Include="configure.ac" />
+    <None Include="depcomp" />
+    <None Include="djpeg.1" />
+    <None Include="install-sh" />
+    <None Include="jconfig.bcc" />
+    <None Include="jconfig.cfg" />
+    <None Include="jconfig.dj" />
+    <None Include="jconfig.mac" />
+    <None Include="jconfig.manx" />
+    <None Include="jconfig.mc6" />
+    <None Include="jconfig.sas" />
+    <None Include="jconfig.st" />
+    <None Include="jconfig.vc" />
+    <None Include="jconfig.vms" />
+    <None Include="jconfig.wat" />
+    <None Include="jmemdosa.asm">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="jpegtran.1" />
+    <None Include="libjpeg.map" />
+    <None Include="ltmain.sh" />
+    <None Include="makcjpeg.st" />
+    <None Include="makdjpeg.st" />
+    <None Include="makeadsw.vc6" />
+    <None Include="makeasln.v10" />
+    <None Include="makecdep.vc6" />
+    <None Include="makecdsp.vc6" />
+    <None Include="makecfil.v10" />
+    <None Include="makecmak.vc6" />
+    <None Include="makecvcx.v10" />
+    <None Include="makeddep.vc6" />
+    <None Include="makeddsp.vc6" />
+    <None Include="makedfil.v10" />
+    <None Include="makedmak.vc6" />
+    <None Include="makedvcx.v10" />
+    <None Include="Makefile.am" />
+    <None Include="makefile.ansi" />
+    <None Include="makefile.bcc" />
+    <None Include="makefile.dj" />
+    <None Include="Makefile.in" />
+    <None Include="makefile.manx" />
+    <None Include="makefile.mc6" />
+    <None Include="makefile.mms" />
+    <None Include="makefile.sas" />
+    <None Include="makefile.unix" />
+    <None Include="makefile.vc" />
+    <None Include="makefile.vms" />
+    <None Include="makefile.wat" />
+    <None Include="makejdep.vc6" />
+    <None Include="makejdsp.vc6" />
+    <None Include="makejdsw.vc6" />
+    <None Include="makejfil.v10" />
+    <None Include="makejmak.vc6" />
+    <None Include="makejsln.v10" />
+    <None Include="makejvcx.v10" />
+    <None Include="makeproj.mac" />
+    <None Include="makerdep.vc6" />
+    <None Include="makerdsp.vc6" />
+    <None Include="makerfil.v10" />
+    <None Include="makermak.vc6" />
+    <None Include="makervcx.v10" />
+    <None Include="maketdep.vc6" />
+    <None Include="maketdsp.vc6" />
+    <None Include="maketfil.v10" />
+    <None Include="maketmak.vc6" />
+    <None Include="maketvcx.v10" />
+    <None Include="makewdep.vc6" />
+    <None Include="makewdsp.vc6" />
+    <None Include="makewfil.v10" />
+    <None Include="makewmak.vc6" />
+    <None Include="makewvcx.v10" />
+    <None Include="makljpeg.st" />
+    <None Include="maktjpeg.st" />
+    <None Include="makvms.opt" />
+    <None Include="missing" />
+    <None Include="rdjpgcom.1" />
+    <None Include="README" />
+    <None Include="readme.dos" />
+    <None Include="testimg.ppm" />
+    <None Include="wrjpgcom.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cderror.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cdjpeg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jdct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jerror.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jinclude.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jmemsys.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jmorecfg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jpegint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeglib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jversion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="transupp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cdjpeg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cjpeg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ckconfig.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="djpeg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jaricom.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jcapimin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jcapistd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jcarith.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jccoefct.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jccolor.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jcdctmgr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jchuff.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jcinit.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jcmainct.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jcmarker.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jcmaster.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jcomapi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jcparam.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jcprepct.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jcsample.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jctrans.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jdapimin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jdapistd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jdarith.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jdatadst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jdatasrc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jdcoefct.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jdcolor.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jddctmgr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jdhuff.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jdinput.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jdmainct.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jdmarker.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jdmaster.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jdmerge.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jdpostct.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jdsample.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jdtrans.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jerror.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jfdctflt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jfdctfst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jfdctint.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jidctflt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jidctfst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jidctint.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jmemansi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jmemdos.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jmemmac.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jmemmgr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jmemname.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jmemnobs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jpegtran.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jquant1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jquant2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jutils.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rdbmp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rdcolmap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rdgif.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rdjpgcom.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rdppm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rdrle.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rdswitch.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rdtarga.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="transupp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="wrbmp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="wrgif.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="wrjpgcom.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="wrppm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="wrrle.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="wrtarga.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="jdosabcc.obj" />
+    <Object Include="jdosamsc.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="testimg.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="testimg.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="testimgp.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="testorig.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="testprog.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

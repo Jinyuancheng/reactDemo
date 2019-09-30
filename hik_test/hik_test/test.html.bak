@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>测试ActiveX</title>
+</head>
+
+<body>
+    <input type="button" value="轮询" onclick="BtnEpoll()"> &nbsp;&nbsp;&nbsp;
+    <input type="button" value="连接视频" onclick="BtnConnVideo()"> &nbsp;&nbsp;&nbsp;
+    <input type="button" value="断开当前视频" onclick="BtnDisConnect()"> &nbsp;&nbsp;&nbsp;
+    <input type="button" value="断开所有视频" onclick="BtnDisConnectAll()"> &nbsp;&nbsp;&nbsp;
+    <input type="button" value="分屏1" onclick="BtnPartScreen(1)">&nbsp;&nbsp;&nbsp;
+    <input type="button" value="分屏4" onclick="BtnPartScreen(4)">&nbsp;&nbsp;&nbsp;
+    <input type="button" value="分屏9" onclick="BtnPartScreen(9)">&nbsp;&nbsp;&nbsp;
+    <input type="button" value="分屏16" onclick="BtnPartScreen(16)"><br><br>
+
+    <table id="tabMain" width="100%" cellspacing=1 class="table">
+        <tr>
+            <td style="width:509px;vertical-align:top;">
+                <div><object style="width:909px;height:549px" id="CentralEcoCity"
+                        classid="clsid:5E19338B-2079-4375-8CB8-5C9A6D9FDD37"></object></div>
+            </td>
+        </tr>
+    </table>
+    <!-- <script language="javascript" for="BethVideo" event="OnRecvTempMsg(ip,value)">
+
+    </script> -->
+
+    <!-- 函数操作 -->
+    <script>
+        //抓拍图片的存储路径
+        var CapPath = "G:\\天津白泽技术有限公司项目\\天津白泽技术项目源文件等\\2019-07-18\\CentralEcoCity\\bin\\photos";
+        //VsClient.dll文件路径
+        var DllPath = "G:\\天津白泽技术有限公司项目\\天津白泽技术项目源文件等\\2019-07-18\\CentralEcoCity\\bin\\dll\\VsClient.dll";
+        //摄像机信息
+        var CamInfo = {
+            "Camare": [
+                {
+                    "sCamName": "摄像机1",
+                    "sIp": "192.168.1.154",
+                    "iPort": "3000",
+                    "lId": "100000053000",
+                },
+                {
+                    "sCamName": "摄像机1",
+                    "sIp": "192.168.1.154",
+                    "iPort": "3000",
+                    "lId": "100000053000",
+                },
+                {
+                    "sCamName": "摄像机1",
+                    "sIp": "192.168.1.154",
+                    "iPort": "3000",
+                    "lId": "100000053000",
+                },
+                {
+                    "sCamName": "摄像机1",
+                    "sIp": "192.168.1.154",
+                    "iPort": "3000",
+                    "lId": "100000053000",
+                },
+                {
+                    "sCamName": "摄像机1",
+                    "sIp": "192.168.1.154",
+                    "iPort": "3000",
+                    "lId": "100000053000",
+                },
+                {
+                    "sCamName": "摄像机1",
+                    "sIp": "192.168.1.154",
+                    "iPort": "3000",
+                    "lId": "100000053000",
+                },
+                // {
+                //     "sCamName": "摄像机1",
+                //     "sIp": "192.168.1.154",
+                //     "iPort": "3000",
+                //     "lId": "100000053000",
+                // },
+                // {
+                //     "sCamName": "摄像机1",
+                //     "sIp": "192.168.1.154",
+                //     "iPort": "3000",
+                //     "lId": "100000053000",
+                // },
+                // {
+                //     "sCamName": "摄像机1",
+                //     "sIp": "192.168.1.154",
+                //     "iPort": "3000",
+                //     "lId": "100000053000",
+                // },
+                // {
+                //     "sCamName": "摄像机1",
+                //     "sIp": "192.168.1.154",
+                //     "iPort": "3000",
+                //     "lId": "100000053000",
+                // }
+            ]
+        }
+        //窗体加载
+        window.onload = function () {
+            //寻找到activex控件
+            var CentralEcoCity = document.getElementById('CentralEcoCity');
+            //初始化控件
+            InitActiveX(CapPath, DllPath);
+        }
+    </script>
+
+    <!-- ActiveX控件中的方法 -->
+    <script>
+        var CentralEcoCity = document.getElementById('CentralEcoCity');
+        //轮询按钮的监听事件
+        function Epoll() {
+            // var string = "[{\"sCamName\":\"摄像机1\",\"sIp\":\"192.168.1.154\",\"iPort\":\"3000\",\"lId\":\"100000053000\"}]";
+            CentralEcoCity.SwitchConnect(JSON.stringify(CamInfo.Camare));
+
+        }
+        //分屏按钮的监听事件
+        function PartScreen(Num) {
+            CentralEcoCity.ChangeScreen(Num);
+        }
+        //连接视频监听事件
+        function ConnectVideo(sIp, sPort, sId, sName) {
+            CentralEcoCity.ConnectVideo(sIp, sPort, sId, sName);
+        }
+        //断开视频连接
+        function DisConnectVideo() {
+            CentralEcoCity.DisConnectVideo();
+        }
+        //断开所有视频连接
+        function DisConnectVideoAll() {
+            CentralEcoCity.DisConnectVideoAll();
+            DelAativeX();
+        }
+        //初始化控件
+        //filename : 抓拍图片的路径名称
+        //dllPath ： dll文件路径
+        function InitActiveX(filename, dllpath) {
+            CentralEcoCity.InitVideoAx(filename, dllpath);
+        }
+        //释放资源
+        function DelActiveX()
+        {
+            clearInterval.DelVideoAx();
+        }
+    </script>
+    <!-- 按钮点击事件 -->
+    <script>
+        //轮询
+        function BtnEpoll() {
+            //Epoll();
+            //DelActiveX();
+            window.setInterval(function () {
+                //Epoll();
+                //DelActiveX();
+                CentralEcoCity.DisConnectVideoAll();
+                Epoll();
+            }, 20000);
+        }
+        //切屏
+        function BtnPartScreen(Num) {
+            PartScreen(Num);
+        }
+        //连接视频按钮
+        function BtnConnVideo() {
+            for (var i = 0; i < CamInfo.Camare.length; i++) {
+                ConnectVideo(CamInfo.Camare[i].sIp, CamInfo.Camare[i].iPort,
+                    CamInfo.Camare[i].lId, CamInfo.Camare[i].sCamName);
+            }
+        }
+        //断开当前连接
+        function BtnDisConnect() {
+            DisConnectVideo();
+        }
+        //断开所有连接
+        function BtnDisConnectAll() {
+            DisConnectVideoAll();
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+{
+  "id": "1",
+  "name": "jinzi",
+  "attr" : {
+    "weight": "100",
+    "height": "200"
+  },
+  "school": {
+    "xiaoyue": "小学",
+    "zhongxue": "中学",
+    "gaozhong": "高中",
+    "daxue": "大学"
+  }
+}

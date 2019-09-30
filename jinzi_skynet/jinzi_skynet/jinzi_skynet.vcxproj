@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{a2c858a5-9fd8-4d49-a772-dc00ab83921e}</ProjectGuid>
+    <Keyword>Linux</Keyword>
+    <RootNamespace>jinzi_skynet</RootNamespace>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <ApplicationType>Linux</ApplicationType>
+    <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
+    <TargetLinuxPlatform>Generic</TargetLinuxPlatform>
+    <LinuxProjectType>{2238F9CD-F817-4ECC-BD14-2524D2669B35}</LinuxProjectType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <ItemGroup>
+    <ClCompile Include="server\3rd\lpeg\lpcap.c" />
+    <ClCompile Include="server\3rd\lpeg\lpcode.c" />
+    <ClCompile Include="server\3rd\lpeg\lpprint.c" />
+    <ClCompile Include="server\3rd\lpeg\lptree.c" />
+    <ClCompile Include="server\3rd\lpeg\lpvm.c" />
+    <ClCompile Include="server\3rd\lua-md5\compat-5.2.c" />
+    <ClCompile Include="server\3rd\lua-md5\md5.c" />
+    <ClCompile Include="server\3rd\lua-md5\md5lib.c" />
+    <ClCompile Include="server\3rd\lua\lapi.c" />
+    <ClCompile Include="server\3rd\lua\lauxlib.c" />
+    <ClCompile Include="server\3rd\lua\lbaselib.c" />
+    <ClCompile Include="server\3rd\lua\lbitlib.c" />
+    <ClCompile Include="server\3rd\lua\lcode.c" />
+    <ClCompile Include="server\3rd\lua\lcorolib.c" />
+    <ClCompile Include="server\3rd\lua\lctype.c" />
+    <ClCompile Include="server\3rd\lua\ldblib.c" />
+    <ClCompile Include="server\3rd\lua\ldebug.c" />
+    <ClCompile Include="server\3rd\lua\ldo.c" />
+    <ClCompile Include="server\3rd\lua\ldump.c" />
+    <ClCompile Include="server\3rd\lua\lfunc.c" />
+    <ClCompile Include="server\3rd\lua\lgc.c" />
+    <ClCompile Include="server\3rd\lua\linit.c" />
+    <ClCompile Include="server\3rd\lua\liolib.c" />
+    <ClCompile Include="server\3rd\lua\llex.c" />
+    <ClCompile Include="server\3rd\lua\lmathlib.c" />
+    <ClCompile Include="server\3rd\lua\lmem.c" />
+    <ClCompile Include="server\3rd\lua\loadlib.c" />
+    <ClCompile Include="server\3rd\lua\lobject.c" />
+    <ClCompile Include="server\3rd\lua\lopcodes.c" />
+    <ClCompile Include="server\3rd\lua\loslib.c" />
+    <ClCompile Include="server\3rd\lua\lparser.c" />
+    <ClCompile Include="server\3rd\lua\lstate.c" />
+    <ClCompile Include="server\3rd\lua\lstring.c" />
+    <ClCompile Include="server\3rd\lua\lstrlib.c" />
+    <ClCompile Include="server\3rd\lua\ltable.c" />
+    <ClCompile Include="server\3rd\lua\ltablib.c" />
+    <ClCompile Include="server\3rd\lua\ltm.c" />
+    <ClCompile Include="server\3rd\lua\lua.c" />
+    <ClCompile Include="server\3rd\lua\luac.c" />
+    <ClCompile Include="server\3rd\lua\lundump.c" />
+    <ClCompile Include="server\3rd\lua\lutf8lib.c" />
+    <ClCompile Include="server\3rd\lua\lvm.c" />
+    <ClCompile Include="server\3rd\lua\lzio.c" />
+    <ClCompile Include="server\lualib-src\lsha1.c" />
+    <ClCompile Include="server\lualib-src\ltls.c" />
+    <ClCompile Include="server\lualib-src\lua-bson.c" />
+    <ClCompile Include="server\lualib-src\lua-clientsocket.c" />
+    <ClCompile Include="server\lualib-src\lua-cluster.c" />
+    <ClCompile Include="server\lualib-src\lua-crypt.c" />
+    <ClCompile Include="server\lualib-src\lua-datasheet.c" />
+    <ClCompile Include="server\lualib-src\lua-debugchannel.c" />
+    <ClCompile Include="server\lualib-src\lua-memory.c" />
+    <ClCompile Include="server\lualib-src\lua-mongo.c" />
+    <ClCompile Include="server\lualib-src\lua-multicast.c" />
+    <ClCompile Include="server\lualib-src\lua-netpack.c" />
+    <ClCompile Include="server\lualib-src\lua-profile.c" />
+    <ClCompile Include="server\lualib-src\lua-seri.c" />
+    <ClCompile Include="server\lualib-src\lua-sharedata.c" />
+    <ClCompile Include="server\lualib-src\lua-skynet.c" />
+    <ClCompile Include="server\lualib-src\lua-socket.c" />
+    <ClCompile Include="server\lualib-src\lua-stm.c" />
+    <ClCompile Include="server\lualib-src\sproto\lsproto.c" />
+    <ClCompile Include="server\lualib-src\sproto\sproto.c" />
+    <ClCompile Include="server\service-src\service_gate.c" />
+    <ClCompile Include="server\service-src\service_harbor.c" />
+    <ClCompile Include="server\service-src\service_logger.c" />
+    <ClCompile Include="server\service-src\service_snlua.c" />
+    <ClCompile Include="server\skynet-src\malloc_hook.c" />
+    <ClCompile Include="server\skynet-src\skynet_daemon.c" />
+    <ClCompile Include="server\skynet-src\skynet_env.c" />
+    <ClCompile Include="server\skynet-src\skynet_error.c" />
+    <ClCompile Include="server\skynet-src\skynet_handle.c" />
+    <ClCompile Include="server\skynet-src\skynet_harbor.c" />
+    <ClCompile Include="server\skynet-src\skynet_log.c" />
+    <ClCompile Include="server\skynet-src\skynet_main.c" />
+    <ClCompile Include="server\skynet-src\skynet_module.c" />
+    <ClCompile Include="server\skynet-src\skynet_monitor.c" />
+    <ClCompile Include="server\skynet-src\skynet_mq.c" />
+    <ClCompile Include="server\skynet-src\skynet_server.c" />
+    <ClCompile Include="server\skynet-src\skynet_socket.c" />
+    <ClCompile Include="server\skynet-src\skynet_start.c" />
+    <ClCompile Include="server\skynet-src\skynet_timer.c" />
+    <ClCompile Include="server\skynet-src\socket_server.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="server\3rd\lpeg\lpcap.h" />
+    <ClInclude Include="server\3rd\lpeg\lpcode.h" />
+    <ClInclude Include="server\3rd\lpeg\lpprint.h" />
+    <ClInclude Include="server\3rd\lpeg\lptree.h" />
+    <ClInclude Include="server\3rd\lpeg\lptypes.h" />
+    <ClInclude Include="server\3rd\lpeg\lpvm.h" />
+    <ClInclude Include="server\3rd\lua-md5\compat-5.2.h" />
+    <ClInclude Include="server\3rd\lua-md5\md5.h" />
+    <ClInclude Include="server\3rd\lua\lapi.h" />
+    <ClInclude Include="server\3rd\lua\lauxlib.h" />
+    <ClInclude Include="server\3rd\lua\lcode.h" />
+    <ClInclude Include="server\3rd\lua\lctype.h" />
+    <ClInclude Include="server\3rd\lua\ldebug.h" />
+    <ClInclude Include="server\3rd\lua\ldo.h" />
+    <ClInclude Include="server\3rd\lua\lfunc.h" />
+    <ClInclude Include="server\3rd\lua\lgc.h" />
+    <ClInclude Include="server\3rd\lua\llex.h" />
+    <ClInclude Include="server\3rd\lua\llimits.h" />
+    <ClInclude Include="server\3rd\lua\lmem.h" />
+    <ClInclude Include="server\3rd\lua\lobject.h" />
+    <ClInclude Include="server\3rd\lua\lopcodes.h" />
+    <ClInclude Include="server\3rd\lua\lparser.h" />
+    <ClInclude Include="server\3rd\lua\lprefix.h" />
+    <ClInclude Include="server\3rd\lua\lstate.h" />
+    <ClInclude Include="server\3rd\lua\lstring.h" />
+    <ClInclude Include="server\3rd\lua\ltable.h" />
+    <ClInclude Include="server\3rd\lua\ltm.h" />
+    <ClInclude Include="server\3rd\lua\lua.h" />
+    <ClInclude Include="server\3rd\lua\lua.hpp" />
+    <ClInclude Include="server\3rd\lua\luaconf.h" />
+    <ClInclude Include="server\3rd\lua\lualib.h" />
+    <ClInclude Include="server\3rd\lua\lundump.h" />
+    <ClInclude Include="server\3rd\lua\lvm.h" />
+    <ClInclude Include="server\3rd\lua\lzio.h" />
+    <ClInclude Include="server\lualib-src\lua-seri.h" />
+    <ClInclude Include="server\lualib-src\sproto\msvcint.h" />
+    <ClInclude Include="server\lualib-src\sproto\sproto.h" />
+    <ClInclude Include="server\service-src\databuffer.h" />
+    <ClInclude Include="server\service-src\hashid.h" />
+    <ClInclude Include="server\skynet-src\atomic.h" />
+    <ClInclude Include="server\skynet-src\luashrtbl.h" />
+    <ClInclude Include="server\skynet-src\malloc_hook.h" />
+    <ClInclude Include="server\skynet-src\rwlock.h" />
+    <ClInclude Include="server\skynet-src\skynet.h" />
+    <ClInclude Include="server\skynet-src\skynet_daemon.h" />
+    <ClInclude Include="server\skynet-src\skynet_env.h" />
+    <ClInclude Include="server\skynet-src\skynet_handle.h" />
+    <ClInclude Include="server\skynet-src\skynet_harbor.h" />
+    <ClInclude Include="server\skynet-src\skynet_imp.h" />
+    <ClInclude Include="server\skynet-src\skynet_log.h" />
+    <ClInclude Include="server\skynet-src\skynet_malloc.h" />
+    <ClInclude Include="server\skynet-src\skynet_module.h" />
+    <ClInclude Include="server\skynet-src\skynet_monitor.h" />
+    <ClInclude Include="server\skynet-src\skynet_mq.h" />
+    <ClInclude Include="server\skynet-src\skynet_server.h" />
+    <ClInclude Include="server\skynet-src\skynet_socket.h" />
+    <ClInclude Include="server\skynet-src\skynet_timer.h" />
+    <ClInclude Include="server\skynet-src\socket_epoll.h" />
+    <ClInclude Include="server\skynet-src\socket_info.h" />
+    <ClInclude Include="server\skynet-src\socket_kqueue.h" />
+    <ClInclude Include="server\skynet-src\socket_poll.h" />
+    <ClInclude Include="server\skynet-src\socket_server.h" />
+    <ClInclude Include="server\skynet-src\spinlock.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="server\3rd\lpeg\lpeg.html" />
+    <None Include="server\3rd\lpeg\re.html" />
+    <None Include="server\lualib\compat10\cluster.lua" />
+    <None Include="server\lualib\compat10\crypt.lua" />
+    <None Include="server\lualib\compat10\datacenter.lua" />
+    <None Include="server\lualib\compat10\dns.lua" />
+    <None Include="server\lualib\compat10\memory.lua" />
+    <None Include="server\lualib\compat10\mongo.lua" />
+    <None Include="server\lualib\compat10\mqueue.lua" />
+    <None Include="server\lualib\compat10\multicast.lua" />
+    <None Include="server\lualib\compat10\mysql.lua" />
+    <None Include="server\lualib\compat10\netpack.lua" />
+    <None Include="server\lualib\compat10\profile.lua" />
+    <None Include="server\lualib\compat10\redis.lua" />
+    <None Include="server\lualib\compat10\sharedata.lua" />
+    <None Include="server\lualib\compat10\sharemap.lua" />
+    <None Include="server\lualib\compat10\snax.lua" />
+    <None Include="server\lualib\compat10\socket.lua" />
+    <None Include="server\lualib\compat10\socketchannel.lua" />
+    <None Include="server\lualib\compat10\socketdriver.lua" />
+    <None Include="server\lualib\compat10\stm.lua" />
+    <None Include="server\lualib\http\httpc.lua" />
+    <None Include="server\lualib\http\httpd.lua" />
+    <None Include="server\lualib\http\internal.lua" />
+    <None Include="server\lualib\http\sockethelper.lua" />
+    <None Include="server\lualib\http\tlshelper.lua" />
+    <None Include="server\lualib\http\url.lua" />
+  </ItemGroup>
+  <ItemDefinitionGroup />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html" />
+    <meta name="author" content="https://www.baidu.com" />
+    <title>websocket test</title>
+    <script>
+        let socketArray = new Array();
+        let ws = new WebSocket("ws://192.168.1.138:10086");
+        function Connect() {
+            ws.onopen = sOpen;
+            ws.onerror = sError;
+            ws.onmessage = sMessage;
+            ws.onclose = sClose;
+        }
+        function sOpen() {
+            alert('connect success!');
+        }
+        function sError(e) {
+            alert("error " + e);
+        }
+        function sMessage(msg) {
+            alert('server says:' + msg.username);
+        }
+        function sClose(e) {
+            alert("connect closed:" + e.code);
+        }
+        function Close() {
+            socket.close();
+        }
+        function Send() {
+            let msg = {
+                "username": "jinzi",
+                "password": "123456"
+            };
+            ws.send(JSON.stringify(msg));
+        }
+        
+    </script>
+</head>
+
+<body>
+    <input id="msg" type="text">
+    <button id="connect" onclick="Connect();">Connect</button>
+    <button id="send" onclick="Send();">Send</button>
+    <button id="close" onclick="Close();">Close</button>
+
+</body>
+
+</html>

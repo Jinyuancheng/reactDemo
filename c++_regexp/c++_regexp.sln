@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "c++_regexp", "c++_regexp\c++_regexp.vcxproj", "{2D475BD1-F1DA-40C1-B370-8C722A606BCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D475BD1-F1DA-40C1-B370-8C722A606BCD}.Debug|x64.ActiveCfg = Debug|x64
+		{2D475BD1-F1DA-40C1-B370-8C722A606BCD}.Debug|x64.Build.0 = Debug|x64
+		{2D475BD1-F1DA-40C1-B370-8C722A606BCD}.Debug|x86.ActiveCfg = Debug|Win32
+		{2D475BD1-F1DA-40C1-B370-8C722A606BCD}.Debug|x86.Build.0 = Debug|Win32
+		{2D475BD1-F1DA-40C1-B370-8C722A606BCD}.Release|x64.ActiveCfg = Release|x64
+		{2D475BD1-F1DA-40C1-B370-8C722A606BCD}.Release|x64.Build.0 = Release|x64
+		{2D475BD1-F1DA-40C1-B370-8C722A606BCD}.Release|x86.ActiveCfg = Release|Win32
+		{2D475BD1-F1DA-40C1-B370-8C722A606BCD}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FFD3C22-68FC-4DE5-92AF-9DC7577A4F82}
+	EndGlobalSection
+EndGlobal

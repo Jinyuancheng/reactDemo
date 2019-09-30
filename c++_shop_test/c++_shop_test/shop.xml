@@ -1,0 +1,18 @@
+
+<shop>
+  <shop1 id="shop1" name="积分商城">
+    <product id="product1" name="商品一号"></product>
+    <product id="product2" name="商品二号"></product>
+    <product id="product3" name="商品三号"></product>
+  </shop1>  
+  <shop2 id="shop2" name="当铺">
+    <product id="product1" name="商品1号"></product>
+    <product id="product2" name="商品2号"></product>
+    <product id="product3" name="商品3号"></product>
+  </shop2>  
+  <shop3 id="shop3" name="钻石商城">
+    <product id="product1" name="商品①号"></product>
+    <product id="product2" name="商品②号"></product>
+    <product id="product3" name="商品③号"></product>
+  </shop3>  
+</shop>

@@ -1,0 +1,1823 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>System.Deployment.4.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:System.Deployment.Application.Fakes.ShimApplicationDeployment">
+            <summary>System.Deployment.Application.ApplicationDeployment 的填充码类型</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimApplicationDeployment.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimApplicationDeployment.#ctor(System.Deployment.Application.ApplicationDeployment)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.ActivationUriGet">
+            <summary>设置 ApplicationDeployment.get_ActivationUri() 的 填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.ActivationUriGet">
+            <summary>设置 ApplicationDeployment.get_ActivationUri() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.CheckForDetailedUpdate">
+            <summary>设置 ApplicationDeployment.CheckForDetailedUpdate() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.CheckForDetailedUpdateBoolean">
+            <summary>设置 ApplicationDeployment.CheckForDetailedUpdate(Boolean persistUpdateCheckResult) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.CheckForUpdate">
+            <summary>设置 ApplicationDeployment.CheckForUpdate() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.CheckForUpdateAsync">
+            <summary>设置 ApplicationDeployment.CheckForUpdateAsync() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.CheckForUpdateAsyncCancel">
+            <summary>设置 ApplicationDeployment.CheckForUpdateAsyncCancel() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.CheckForUpdateBoolean">
+            <summary>设置 ApplicationDeployment.CheckForUpdate(Boolean persistUpdateCheckResult) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.CheckForUpdateCompletedAddCheckForUpdateCompletedEventHandler">
+            <summary>设置 ApplicationDeployment.add_CheckForUpdateCompleted(CheckForUpdateCompletedEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.CheckForUpdateCompletedRemoveCheckForUpdateCompletedEventHandler">
+            <summary>设置 ApplicationDeployment.remove_CheckForUpdateCompleted(CheckForUpdateCompletedEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.CheckForUpdateProgressChangedAddDeploymentProgressChangedEventHandler">
+            <summary>设置 ApplicationDeployment.add_CheckForUpdateProgressChanged(DeploymentProgressChangedEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.CheckForUpdateProgressChangedRemoveDeploymentProgressChangedEventHandler">
+            <summary>设置 ApplicationDeployment.remove_CheckForUpdateProgressChanged(DeploymentProgressChangedEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.Constructor">
+            <summary>设置 ApplicationDeployment.ApplicationDeployment() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.CurrentVersionGet">
+            <summary>设置 ApplicationDeployment.get_CurrentVersion() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.DataDirectoryGet">
+            <summary>设置 ApplicationDeployment.get_DataDirectory() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.DownloadFileGroupAsyncCancelString">
+            <summary>设置 ApplicationDeployment.DownloadFileGroupAsyncCancel(String groupName) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.DownloadFileGroupAsyncString">
+            <summary>设置 ApplicationDeployment.DownloadFileGroupAsync(String groupName) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.DownloadFileGroupAsyncStringObject">
+            <summary>设置 ApplicationDeployment.DownloadFileGroupAsync(String groupName, Object userState) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.DownloadFileGroupCompletedAddDownloadFileGroupCompletedEventHandler">
+            <summary>设置 ApplicationDeployment.add_DownloadFileGroupCompleted(DownloadFileGroupCompletedEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.DownloadFileGroupCompletedRemoveDownloadFileGroupCompletedEventHandler">
+            <summary>设置 ApplicationDeployment.remove_DownloadFileGroupCompleted(DownloadFileGroupCompletedEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.DownloadFileGroupProgressChangedAddDeploymentProgressChangedEventHandler">
+            <summary>设置 ApplicationDeployment.add_DownloadFileGroupProgressChanged(DeploymentProgressChangedEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.DownloadFileGroupProgressChangedRemoveDeploymentProgressChangedEventHandler">
+            <summary>设置 ApplicationDeployment.remove_DownloadFileGroupProgressChanged(DeploymentProgressChangedEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.DownloadFileGroupString">
+            <summary>设置 ApplicationDeployment.DownloadFileGroup(String groupName) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.IsFileGroupDownloadedString">
+            <summary>设置 ApplicationDeployment.IsFileGroupDownloaded(String groupName) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.IsFirstRunGet">
+            <summary>设置 ApplicationDeployment.get_IsFirstRun() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.TimeOfLastUpdateCheckGet">
+            <summary>设置 ApplicationDeployment.get_TimeOfLastUpdateCheck() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.Update">
+            <summary>设置 ApplicationDeployment.Update() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.UpdateAsync">
+            <summary>设置 ApplicationDeployment.UpdateAsync() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.UpdateAsyncCancel">
+            <summary>设置 ApplicationDeployment.UpdateAsyncCancel() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.UpdateCompletedAddAsyncCompletedEventHandler">
+            <summary>设置 ApplicationDeployment.add_UpdateCompleted(AsyncCompletedEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.UpdateCompletedRemoveAsyncCompletedEventHandler">
+            <summary>设置 ApplicationDeployment.remove_UpdateCompleted(AsyncCompletedEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.UpdateLocationGet">
+            <summary>设置 ApplicationDeployment.get_UpdateLocation() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.UpdateProgressChangedAddDeploymentProgressChangedEventHandler">
+            <summary>设置 ApplicationDeployment.add_UpdateProgressChanged(DeploymentProgressChangedEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.UpdateProgressChangedRemoveDeploymentProgressChangedEventHandler">
+            <summary>设置 ApplicationDeployment.remove_UpdateProgressChanged(DeploymentProgressChangedEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.UpdatedApplicationFullNameGet">
+            <summary>设置 ApplicationDeployment.get_UpdatedApplicationFullName() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.AllInstances.UpdatedVersionGet">
+            <summary>设置 ApplicationDeployment.get_UpdatedVersion() 的 填充码</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimApplicationDeployment.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimApplicationDeployment.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.CheckForDetailedUpdate">
+            <summary>设置 ApplicationDeployment.CheckForDetailedUpdate() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.CheckForDetailedUpdateBoolean">
+            <summary>设置 ApplicationDeployment.CheckForDetailedUpdate(Boolean persistUpdateCheckResult) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.CheckForUpdate">
+            <summary>设置 ApplicationDeployment.CheckForUpdate() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.CheckForUpdateAsync">
+            <summary>设置 ApplicationDeployment.CheckForUpdateAsync() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.CheckForUpdateAsyncCancel">
+            <summary>设置 ApplicationDeployment.CheckForUpdateAsyncCancel() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.CheckForUpdateBoolean">
+            <summary>设置 ApplicationDeployment.CheckForUpdate(Boolean persistUpdateCheckResult) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.CheckForUpdateCompletedAddCheckForUpdateCompletedEventHandler">
+            <summary>设置 ApplicationDeployment.add_CheckForUpdateCompleted(CheckForUpdateCompletedEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.CheckForUpdateCompletedRemoveCheckForUpdateCompletedEventHandler">
+            <summary>设置 ApplicationDeployment.remove_CheckForUpdateCompleted(CheckForUpdateCompletedEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.CheckForUpdateProgressChangedAddDeploymentProgressChangedEventHandler">
+            <summary>设置 ApplicationDeployment.add_CheckForUpdateProgressChanged(DeploymentProgressChangedEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.CheckForUpdateProgressChangedRemoveDeploymentProgressChangedEventHandler">
+            <summary>设置 ApplicationDeployment.remove_CheckForUpdateProgressChanged(DeploymentProgressChangedEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.Constructor">
+            <summary>设置 ApplicationDeployment.ApplicationDeployment() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.CurrentDeploymentGet">
+            <summary>设置 ApplicationDeployment.get_CurrentDeployment() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.CurrentVersionGet">
+            <summary>设置 ApplicationDeployment.get_CurrentVersion() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.DataDirectoryGet">
+            <summary>设置 ApplicationDeployment.get_DataDirectory() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.DownloadFileGroupAsyncCancelString">
+            <summary>设置 ApplicationDeployment.DownloadFileGroupAsyncCancel(String groupName) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.DownloadFileGroupAsyncString">
+            <summary>设置 ApplicationDeployment.DownloadFileGroupAsync(String groupName) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.DownloadFileGroupAsyncStringObject">
+            <summary>设置 ApplicationDeployment.DownloadFileGroupAsync(String groupName, Object userState) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.DownloadFileGroupCompletedAddDownloadFileGroupCompletedEventHandler">
+            <summary>设置 ApplicationDeployment.add_DownloadFileGroupCompleted(DownloadFileGroupCompletedEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.DownloadFileGroupCompletedRemoveDownloadFileGroupCompletedEventHandler">
+            <summary>设置 ApplicationDeployment.remove_DownloadFileGroupCompleted(DownloadFileGroupCompletedEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.DownloadFileGroupProgressChangedAddDeploymentProgressChangedEventHandler">
+            <summary>设置 ApplicationDeployment.add_DownloadFileGroupProgressChanged(DeploymentProgressChangedEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.DownloadFileGroupProgressChangedRemoveDeploymentProgressChangedEventHandler">
+            <summary>设置 ApplicationDeployment.remove_DownloadFileGroupProgressChanged(DeploymentProgressChangedEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.DownloadFileGroupString">
+            <summary>设置 ApplicationDeployment.DownloadFileGroup(String groupName) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.IsFileGroupDownloadedString">
+            <summary>设置 ApplicationDeployment.IsFileGroupDownloaded(String groupName) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.IsFirstRunGet">
+            <summary>设置 ApplicationDeployment.get_IsFirstRun() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.IsNetworkDeployedGet">
+            <summary>设置 ApplicationDeployment.get_IsNetworkDeployed() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.StaticConstructor">
+            <summary>设置 ApplicationDeployment.ApplicationDeployment() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.TimeOfLastUpdateCheckGet">
+            <summary>设置 ApplicationDeployment.get_TimeOfLastUpdateCheck() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.Update">
+            <summary>设置 ApplicationDeployment.Update() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.UpdateAsync">
+            <summary>设置 ApplicationDeployment.UpdateAsync() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.UpdateAsyncCancel">
+            <summary>设置 ApplicationDeployment.UpdateAsyncCancel() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.UpdateCompletedAddAsyncCompletedEventHandler">
+            <summary>设置 ApplicationDeployment.add_UpdateCompleted(AsyncCompletedEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.UpdateCompletedRemoveAsyncCompletedEventHandler">
+            <summary>设置 ApplicationDeployment.remove_UpdateCompleted(AsyncCompletedEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.UpdateLocationGet">
+            <summary>设置 ApplicationDeployment.get_UpdateLocation() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.UpdateProgressChangedAddDeploymentProgressChangedEventHandler">
+            <summary>设置 ApplicationDeployment.add_UpdateProgressChanged(DeploymentProgressChangedEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.UpdateProgressChangedRemoveDeploymentProgressChangedEventHandler">
+            <summary>设置 ApplicationDeployment.remove_UpdateProgressChanged(DeploymentProgressChangedEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.UpdatedApplicationFullNameGet">
+            <summary>设置 ApplicationDeployment.get_UpdatedApplicationFullName() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimApplicationDeployment.UpdatedVersionGet">
+            <summary>设置 ApplicationDeployment.get_UpdatedVersion() 的 填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimCheckForUpdateCompletedEventArgs">
+            <summary>System.Deployment.Application.CheckForUpdateCompletedEventArgs 的填充码类型</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimCheckForUpdateCompletedEventArgs.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimCheckForUpdateCompletedEventArgs.#ctor(System.Deployment.Application.CheckForUpdateCompletedEventArgs)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimCheckForUpdateCompletedEventArgs.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCheckForUpdateCompletedEventArgs.AllInstances.AvailableVersionGet">
+            <summary>设置 CheckForUpdateCompletedEventArgs.get_AvailableVersion() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCheckForUpdateCompletedEventArgs.AllInstances.IsUpdateRequiredGet">
+            <summary>设置 CheckForUpdateCompletedEventArgs.get_IsUpdateRequired() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCheckForUpdateCompletedEventArgs.AllInstances.MinimumRequiredVersionGet">
+            <summary>设置 CheckForUpdateCompletedEventArgs.get_MinimumRequiredVersion() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCheckForUpdateCompletedEventArgs.AllInstances.UpdateAvailableGet">
+            <summary>设置 CheckForUpdateCompletedEventArgs.get_UpdateAvailable() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCheckForUpdateCompletedEventArgs.AllInstances.UpdateSizeBytesGet">
+            <summary>设置 CheckForUpdateCompletedEventArgs.get_UpdateSizeBytes() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCheckForUpdateCompletedEventArgs.AvailableVersionGet">
+            <summary>设置 CheckForUpdateCompletedEventArgs.get_AvailableVersion() 的 填充码</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimCheckForUpdateCompletedEventArgs.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimCheckForUpdateCompletedEventArgs.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCheckForUpdateCompletedEventArgs.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCheckForUpdateCompletedEventArgs.ConstructorExceptionBooleanObjectBooleanVersionBooleanVersionInt64">
+            <summary>设置 CheckForUpdateCompletedEventArgs.CheckForUpdateCompletedEventArgs(Exception error, Boolean cancelled, Object userState, Boolean updateAvailable, Version availableVersion, Boolean isUpdateRequired, Version minimumRequiredVersion, Int64 updateSize) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCheckForUpdateCompletedEventArgs.IsUpdateRequiredGet">
+            <summary>设置 CheckForUpdateCompletedEventArgs.get_IsUpdateRequired() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCheckForUpdateCompletedEventArgs.MinimumRequiredVersionGet">
+            <summary>设置 CheckForUpdateCompletedEventArgs.get_MinimumRequiredVersion() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCheckForUpdateCompletedEventArgs.UpdateAvailableGet">
+            <summary>设置 CheckForUpdateCompletedEventArgs.get_UpdateAvailable() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCheckForUpdateCompletedEventArgs.UpdateSizeBytesGet">
+            <summary>设置 CheckForUpdateCompletedEventArgs.get_UpdateSizeBytes() 的 填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimCompatibleFramework">
+            <summary>System.Deployment.Application.CompatibleFramework 的填充码类型</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimCompatibleFramework.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimCompatibleFramework.#ctor(System.Deployment.Application.CompatibleFramework)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimCompatibleFramework.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCompatibleFramework.AllInstances.ProfileGet">
+            <summary>设置 CompatibleFramework.get_Profile() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCompatibleFramework.AllInstances.SupportedRuntimeGet">
+            <summary>设置 CompatibleFramework.get_SupportedRuntime() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCompatibleFramework.AllInstances.TargetVersionGet">
+            <summary>设置 CompatibleFramework.get_TargetVersion() 的 填充码</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimCompatibleFramework.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimCompatibleFramework.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCompatibleFramework.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCompatibleFramework.ProfileGet">
+            <summary>设置 CompatibleFramework.get_Profile() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCompatibleFramework.SupportedRuntimeGet">
+            <summary>设置 CompatibleFramework.get_SupportedRuntime() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCompatibleFramework.TargetVersionGet">
+            <summary>设置 CompatibleFramework.get_TargetVersion() 的 填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimCompatibleFrameworkMissingException">
+            <summary>System.Deployment.Application.CompatibleFrameworkMissingException 的填充码类型</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimCompatibleFrameworkMissingException.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimCompatibleFrameworkMissingException.#ctor(System.Deployment.Application.CompatibleFrameworkMissingException)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimCompatibleFrameworkMissingException.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCompatibleFrameworkMissingException.AllInstances.CompatibleFrameworksGet">
+            <summary>设置 CompatibleFrameworkMissingException.get_CompatibleFrameworks() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCompatibleFrameworkMissingException.AllInstances.GetObjectDataSerializationInfoStreamingContext">
+            <summary>设置 CompatibleFrameworkMissingException.GetObjectData(SerializationInfo info, StreamingContext context) 的 填充码</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimCompatibleFrameworkMissingException.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimCompatibleFrameworkMissingException.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCompatibleFrameworkMissingException.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimCompatibleFrameworkMissingException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCompatibleFrameworkMissingException.CompatibleFrameworksGet">
+            <summary>设置 CompatibleFrameworkMissingException.get_CompatibleFrameworks() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCompatibleFrameworkMissingException.Constructor">
+            <summary>设置 CompatibleFrameworkMissingException.CompatibleFrameworkMissingException() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCompatibleFrameworkMissingException.ConstructorSerializationInfoStreamingContext">
+            <summary>设置 CompatibleFrameworkMissingException.CompatibleFrameworkMissingException(SerializationInfo serializationInfo, StreamingContext streamingContext) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCompatibleFrameworkMissingException.ConstructorString">
+            <summary>设置 CompatibleFrameworkMissingException.CompatibleFrameworkMissingException(String message) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCompatibleFrameworkMissingException.ConstructorStringException">
+            <summary>设置 CompatibleFrameworkMissingException.CompatibleFrameworkMissingException(String message, Exception innerException) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCompatibleFrameworkMissingException.ConstructorStringUriCompatibleFrameworks">
+            <summary>设置 CompatibleFrameworkMissingException.CompatibleFrameworkMissingException(String message, Uri supportUrl, CompatibleFrameworks compatibleFrameworks) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCompatibleFrameworkMissingException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>设置 CompatibleFrameworkMissingException.GetObjectData(SerializationInfo info, StreamingContext context) 的 填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimCompatibleFrameworks">
+            <summary>System.Deployment.Application.CompatibleFrameworks 的填充码类型</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimCompatibleFrameworks.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimCompatibleFrameworks.#ctor(System.Deployment.Application.CompatibleFrameworks)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimCompatibleFrameworks.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCompatibleFrameworks.AllInstances.FrameworksGet">
+            <summary>设置 CompatibleFrameworks.get_Frameworks() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCompatibleFrameworks.AllInstances.SupportUrlGet">
+            <summary>设置 CompatibleFrameworks.get_SupportUrl() 的 填充码</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimCompatibleFrameworks.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimCompatibleFrameworks.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCompatibleFrameworks.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCompatibleFrameworks.FrameworksGet">
+            <summary>设置 CompatibleFrameworks.get_Frameworks() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimCompatibleFrameworks.SupportUrlGet">
+            <summary>设置 CompatibleFrameworks.get_SupportUrl() 的 填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimDependentPlatformMissingException">
+            <summary>System.Deployment.Application.DependentPlatformMissingException 的填充码类型</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDependentPlatformMissingException.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDependentPlatformMissingException.#ctor(System.Deployment.Application.DependentPlatformMissingException)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimDependentPlatformMissingException.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDependentPlatformMissingException.AllInstances.GetObjectDataSerializationInfoStreamingContext">
+            <summary>设置 DependentPlatformMissingException.GetObjectData(SerializationInfo info, StreamingContext context) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDependentPlatformMissingException.AllInstances.SupportUrlGet">
+            <summary>设置 DependentPlatformMissingException.get_SupportUrl() 的 填充码</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDependentPlatformMissingException.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDependentPlatformMissingException.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDependentPlatformMissingException.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDependentPlatformMissingException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDependentPlatformMissingException.Constructor">
+            <summary>设置 DependentPlatformMissingException.DependentPlatformMissingException() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDependentPlatformMissingException.ConstructorSerializationInfoStreamingContext">
+            <summary>设置 DependentPlatformMissingException.DependentPlatformMissingException(SerializationInfo serializationInfo, StreamingContext streamingContext) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDependentPlatformMissingException.ConstructorString">
+            <summary>设置 DependentPlatformMissingException.DependentPlatformMissingException(String message) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDependentPlatformMissingException.ConstructorStringException">
+            <summary>设置 DependentPlatformMissingException.DependentPlatformMissingException(String message, Exception innerException) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDependentPlatformMissingException.ConstructorStringUri">
+            <summary>设置 DependentPlatformMissingException.DependentPlatformMissingException(String message, Uri supportUrl) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDependentPlatformMissingException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>设置 DependentPlatformMissingException.GetObjectData(SerializationInfo info, StreamingContext context) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDependentPlatformMissingException.SupportUrlGet">
+            <summary>设置 DependentPlatformMissingException.get_SupportUrl() 的 填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimDeploymentDownloadException">
+            <summary>System.Deployment.Application.DeploymentDownloadException 的填充码类型</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDeploymentDownloadException.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDeploymentDownloadException.#ctor(System.Deployment.Application.DeploymentDownloadException)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimDeploymentDownloadException.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDeploymentDownloadException.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDeploymentDownloadException.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentDownloadException.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDeploymentDownloadException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentDownloadException.Constructor">
+            <summary>设置 DeploymentDownloadException.DeploymentDownloadException() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentDownloadException.ConstructorSerializationInfoStreamingContext">
+            <summary>设置 DeploymentDownloadException.DeploymentDownloadException(SerializationInfo serializationInfo, StreamingContext streamingContext) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentDownloadException.ConstructorString">
+            <summary>设置 DeploymentDownloadException.DeploymentDownloadException(String message) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentDownloadException.ConstructorStringException">
+            <summary>设置 DeploymentDownloadException.DeploymentDownloadException(String message, Exception innerException) 的 填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimDeploymentException">
+            <summary>System.Deployment.Application.DeploymentException 的填充码类型</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDeploymentException.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDeploymentException.#ctor(System.Deployment.Application.DeploymentException)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimDeploymentException.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentException.AllInstances.GetObjectDataSerializationInfoStreamingContext">
+            <summary>设置 DeploymentException.GetObjectData(SerializationInfo info, StreamingContext context) 的 填充码</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDeploymentException.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDeploymentException.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentException.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDeploymentException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentException.Constructor">
+            <summary>设置 DeploymentException.DeploymentException() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentException.ConstructorSerializationInfoStreamingContext">
+            <summary>设置 DeploymentException.DeploymentException(SerializationInfo serializationInfo, StreamingContext streamingContext) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentException.ConstructorString">
+            <summary>设置 DeploymentException.DeploymentException(String message) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentException.ConstructorStringException">
+            <summary>设置 DeploymentException.DeploymentException(String message, Exception innerException) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>设置 DeploymentException.GetObjectData(SerializationInfo info, StreamingContext context) 的 填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimDeploymentProgressChangedEventArgs">
+            <summary>System.Deployment.Application.DeploymentProgressChangedEventArgs 的填充码类型</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDeploymentProgressChangedEventArgs.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDeploymentProgressChangedEventArgs.#ctor(System.Deployment.Application.DeploymentProgressChangedEventArgs)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimDeploymentProgressChangedEventArgs.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentProgressChangedEventArgs.AllInstances.BytesCompletedGet">
+            <summary>设置 DeploymentProgressChangedEventArgs.get_BytesCompleted() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentProgressChangedEventArgs.AllInstances.BytesTotalGet">
+            <summary>设置 DeploymentProgressChangedEventArgs.get_BytesTotal() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentProgressChangedEventArgs.AllInstances.GroupGet">
+            <summary>设置 DeploymentProgressChangedEventArgs.get_Group() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentProgressChangedEventArgs.AllInstances.StateGet">
+            <summary>设置 DeploymentProgressChangedEventArgs.get_State() 的 填充码</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDeploymentProgressChangedEventArgs.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDeploymentProgressChangedEventArgs.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentProgressChangedEventArgs.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentProgressChangedEventArgs.BytesCompletedGet">
+            <summary>设置 DeploymentProgressChangedEventArgs.get_BytesCompleted() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentProgressChangedEventArgs.BytesTotalGet">
+            <summary>设置 DeploymentProgressChangedEventArgs.get_BytesTotal() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentProgressChangedEventArgs.ConstructorInt32ObjectInt64Int64DeploymentProgressStateString">
+            <summary>设置 DeploymentProgressChangedEventArgs.DeploymentProgressChangedEventArgs(Int32 progressPercentage, Object userState, Int64 bytesCompleted, Int64 bytesTotal, DeploymentProgressState state, String groupName) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentProgressChangedEventArgs.GroupGet">
+            <summary>设置 DeploymentProgressChangedEventArgs.get_Group() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentProgressChangedEventArgs.StateGet">
+            <summary>设置 DeploymentProgressChangedEventArgs.get_State() 的 填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimDeploymentServiceCom">
+            <summary>System.Deployment.Application.DeploymentServiceCom 的填充码类型</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDeploymentServiceCom.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDeploymentServiceCom.#ctor(System.Deployment.Application.DeploymentServiceCom)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentServiceCom.ActivateApplicationExtensionStringStringString">
+            <summary>设置 DeploymentServiceCom.ActivateApplicationExtension(String textualSubId, String deploymentProviderUrl, String targetAssociatedFile) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentServiceCom.ActivateDeploymentExStringInt32Int32">
+            <summary>设置 DeploymentServiceCom.ActivateDeploymentEx(String deploymentLocation, Int32 unsignedPolicy, Int32 signedPolicy) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentServiceCom.ActivateDeploymentStringBoolean">
+            <summary>设置 DeploymentServiceCom.ActivateDeployment(String deploymentLocation, Boolean isShortcut) 的 填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimDeploymentServiceCom.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentServiceCom.AllInstances.ActivateApplicationExtensionStringStringString">
+            <summary>设置 DeploymentServiceCom.ActivateApplicationExtension(String textualSubId, String deploymentProviderUrl, String targetAssociatedFile) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentServiceCom.AllInstances.ActivateDeploymentExStringInt32Int32">
+            <summary>设置 DeploymentServiceCom.ActivateDeploymentEx(String deploymentLocation, Int32 unsignedPolicy, Int32 signedPolicy) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentServiceCom.AllInstances.ActivateDeploymentStringBoolean">
+            <summary>设置 DeploymentServiceCom.ActivateDeployment(String deploymentLocation, Boolean isShortcut) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentServiceCom.AllInstances.CheckForDeploymentUpdateString">
+            <summary>设置 DeploymentServiceCom.CheckForDeploymentUpdate(String textualSubId) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentServiceCom.AllInstances.CleanOnlineAppCache">
+            <summary>设置 DeploymentServiceCom.CleanOnlineAppCache() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentServiceCom.AllInstances.EndServiceRightNow">
+            <summary>设置 DeploymentServiceCom.EndServiceRightNow() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentServiceCom.AllInstances.MaintainSubscriptionString">
+            <summary>设置 DeploymentServiceCom.MaintainSubscription(String textualSubId) 的 填充码</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDeploymentServiceCom.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDeploymentServiceCom.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentServiceCom.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentServiceCom.CheckForDeploymentUpdateString">
+            <summary>设置 DeploymentServiceCom.CheckForDeploymentUpdate(String textualSubId) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentServiceCom.CleanOnlineAppCache">
+            <summary>设置 DeploymentServiceCom.CleanOnlineAppCache() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentServiceCom.Constructor">
+            <summary>设置 DeploymentServiceCom.DeploymentServiceCom() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentServiceCom.EndServiceRightNow">
+            <summary>设置 DeploymentServiceCom.EndServiceRightNow() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDeploymentServiceCom.MaintainSubscriptionString">
+            <summary>设置 DeploymentServiceCom.MaintainSubscription(String textualSubId) 的 填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimDownloadApplicationCompletedEventArgs">
+            <summary>System.Deployment.Application.DownloadApplicationCompletedEventArgs 的填充码类型</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDownloadApplicationCompletedEventArgs.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDownloadApplicationCompletedEventArgs.#ctor(System.Deployment.Application.DownloadApplicationCompletedEventArgs)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimDownloadApplicationCompletedEventArgs.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDownloadApplicationCompletedEventArgs.AllInstances.LogFilePathGet">
+            <summary>设置 DownloadApplicationCompletedEventArgs.get_LogFilePath() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDownloadApplicationCompletedEventArgs.AllInstances.ShortcutAppIdGet">
+            <summary>设置 DownloadApplicationCompletedEventArgs.get_ShortcutAppId() 的 填充码</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDownloadApplicationCompletedEventArgs.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDownloadApplicationCompletedEventArgs.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDownloadApplicationCompletedEventArgs.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDownloadApplicationCompletedEventArgs.ConstructorAsyncCompletedEventArgsStringString">
+            <summary>设置 DownloadApplicationCompletedEventArgs.DownloadApplicationCompletedEventArgs(AsyncCompletedEventArgs e, String logFilePath, String shortcutAppId) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDownloadApplicationCompletedEventArgs.LogFilePathGet">
+            <summary>设置 DownloadApplicationCompletedEventArgs.get_LogFilePath() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDownloadApplicationCompletedEventArgs.ShortcutAppIdGet">
+            <summary>设置 DownloadApplicationCompletedEventArgs.get_ShortcutAppId() 的 填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimDownloadFileGroupCompletedEventArgs">
+            <summary>System.Deployment.Application.DownloadFileGroupCompletedEventArgs 的填充码类型</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDownloadFileGroupCompletedEventArgs.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDownloadFileGroupCompletedEventArgs.#ctor(System.Deployment.Application.DownloadFileGroupCompletedEventArgs)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimDownloadFileGroupCompletedEventArgs.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDownloadFileGroupCompletedEventArgs.AllInstances.GroupGet">
+            <summary>设置 DownloadFileGroupCompletedEventArgs.get_Group() 的 填充码</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDownloadFileGroupCompletedEventArgs.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDownloadFileGroupCompletedEventArgs.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDownloadFileGroupCompletedEventArgs.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDownloadFileGroupCompletedEventArgs.ConstructorExceptionBooleanObjectString">
+            <summary>设置 DownloadFileGroupCompletedEventArgs.DownloadFileGroupCompletedEventArgs(Exception error, Boolean cancelled, Object userState, String groupName) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDownloadFileGroupCompletedEventArgs.GroupGet">
+            <summary>设置 DownloadFileGroupCompletedEventArgs.get_Group() 的 填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimDownloadProgressChangedEventArgs">
+            <summary>System.Deployment.Application.DownloadProgressChangedEventArgs 的填充码类型</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDownloadProgressChangedEventArgs.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDownloadProgressChangedEventArgs.#ctor(System.Deployment.Application.DownloadProgressChangedEventArgs)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimDownloadProgressChangedEventArgs.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDownloadProgressChangedEventArgs.AllInstances.BytesDownloadedGet">
+            <summary>设置 DownloadProgressChangedEventArgs.get_BytesDownloaded() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDownloadProgressChangedEventArgs.AllInstances.StateGet">
+            <summary>设置 DownloadProgressChangedEventArgs.get_State() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDownloadProgressChangedEventArgs.AllInstances.TotalBytesToDownloadGet">
+            <summary>设置 DownloadProgressChangedEventArgs.get_TotalBytesToDownload() 的 填充码</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDownloadProgressChangedEventArgs.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimDownloadProgressChangedEventArgs.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDownloadProgressChangedEventArgs.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDownloadProgressChangedEventArgs.BytesDownloadedGet">
+            <summary>设置 DownloadProgressChangedEventArgs.get_BytesDownloaded() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDownloadProgressChangedEventArgs.ConstructorInt32ObjectInt64Int64DeploymentProgressState">
+            <summary>设置 DownloadProgressChangedEventArgs.DownloadProgressChangedEventArgs(Int32 progressPercentage, Object userState, Int64 bytesCompleted, Int64 bytesTotal, DeploymentProgressState downloadProgressState) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDownloadProgressChangedEventArgs.StateGet">
+            <summary>设置 DownloadProgressChangedEventArgs.get_State() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimDownloadProgressChangedEventArgs.TotalBytesToDownloadGet">
+            <summary>设置 DownloadProgressChangedEventArgs.get_TotalBytesToDownload() 的 填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimGetManifestCompletedEventArgs">
+            <summary>System.Deployment.Application.GetManifestCompletedEventArgs 的填充码类型</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimGetManifestCompletedEventArgs.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimGetManifestCompletedEventArgs.#ctor(System.Deployment.Application.GetManifestCompletedEventArgs)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimGetManifestCompletedEventArgs.ActivationContextGet">
+            <summary>设置 GetManifestCompletedEventArgs.get_ActivationContext() 的 填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimGetManifestCompletedEventArgs.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimGetManifestCompletedEventArgs.AllInstances.ActivationContextGet">
+            <summary>设置 GetManifestCompletedEventArgs.get_ActivationContext() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimGetManifestCompletedEventArgs.AllInstances.ApplicationIdentityGet">
+            <summary>设置 GetManifestCompletedEventArgs.get_ApplicationIdentity() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimGetManifestCompletedEventArgs.AllInstances.ApplicationManifestGet">
+            <summary>设置 GetManifestCompletedEventArgs.get_ApplicationManifest() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimGetManifestCompletedEventArgs.AllInstances.DeploymentManifestGet">
+            <summary>设置 GetManifestCompletedEventArgs.get_DeploymentManifest() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimGetManifestCompletedEventArgs.AllInstances.IsCachedGet">
+            <summary>设置 GetManifestCompletedEventArgs.get_IsCached() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimGetManifestCompletedEventArgs.AllInstances.LogFilePathGet">
+            <summary>设置 GetManifestCompletedEventArgs.get_LogFilePath() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimGetManifestCompletedEventArgs.AllInstances.ProductNameGet">
+            <summary>设置 GetManifestCompletedEventArgs.get_ProductName() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimGetManifestCompletedEventArgs.AllInstances.SubscriptionIdentityGet">
+            <summary>设置 GetManifestCompletedEventArgs.get_SubscriptionIdentity() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimGetManifestCompletedEventArgs.AllInstances.SupportUriGet">
+            <summary>设置 GetManifestCompletedEventArgs.get_SupportUri() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimGetManifestCompletedEventArgs.AllInstances.VersionGet">
+            <summary>设置 GetManifestCompletedEventArgs.get_Version() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimGetManifestCompletedEventArgs.ApplicationIdentityGet">
+            <summary>设置 GetManifestCompletedEventArgs.get_ApplicationIdentity() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimGetManifestCompletedEventArgs.ApplicationManifestGet">
+            <summary>设置 GetManifestCompletedEventArgs.get_ApplicationManifest() 的 填充码</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimGetManifestCompletedEventArgs.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimGetManifestCompletedEventArgs.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimGetManifestCompletedEventArgs.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimGetManifestCompletedEventArgs.DeploymentManifestGet">
+            <summary>设置 GetManifestCompletedEventArgs.get_DeploymentManifest() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimGetManifestCompletedEventArgs.IsCachedGet">
+            <summary>设置 GetManifestCompletedEventArgs.get_IsCached() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimGetManifestCompletedEventArgs.LogFilePathGet">
+            <summary>设置 GetManifestCompletedEventArgs.get_LogFilePath() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimGetManifestCompletedEventArgs.ProductNameGet">
+            <summary>设置 GetManifestCompletedEventArgs.get_ProductName() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimGetManifestCompletedEventArgs.SubscriptionIdentityGet">
+            <summary>设置 GetManifestCompletedEventArgs.get_SubscriptionIdentity() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimGetManifestCompletedEventArgs.SupportUriGet">
+            <summary>设置 GetManifestCompletedEventArgs.get_SupportUri() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimGetManifestCompletedEventArgs.VersionGet">
+            <summary>设置 GetManifestCompletedEventArgs.get_Version() 的 填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimInPlaceHostingManager">
+            <summary>System.Deployment.Application.InPlaceHostingManager 的填充码类型</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.#ctor(System.Deployment.Application.InPlaceHostingManager)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.AllInstances.AssertApplicationRequirements">
+            <summary>设置 InPlaceHostingManager.AssertApplicationRequirements() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.AllInstances.AssertApplicationRequirementsBoolean">
+            <summary>设置 InPlaceHostingManager.AssertApplicationRequirements(Boolean grantApplicationTrust) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.AllInstances.CancelAsync">
+            <summary>设置 InPlaceHostingManager.CancelAsync() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.AllInstances.Dispose">
+            <summary>设置 InPlaceHostingManager.Dispose() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.AllInstances.DownloadApplicationAsync">
+            <summary>设置 InPlaceHostingManager.DownloadApplicationAsync() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.AllInstances.DownloadApplicationCompletedAddEventHandlerOfDownloadApplicationCompletedEventArgs">
+            <summary>设置 InPlaceHostingManager.add_DownloadApplicationCompleted(EventHandler`1&lt;DownloadApplicationCompletedEventArgs&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.AllInstances.DownloadApplicationCompletedRemoveEventHandlerOfDownloadApplicationCompletedEventArgs">
+            <summary>设置 InPlaceHostingManager.remove_DownloadApplicationCompleted(EventHandler`1&lt;DownloadApplicationCompletedEventArgs&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.AllInstances.DownloadProgressChangedAddEventHandlerOfDownloadProgressChangedEventArgs">
+            <summary>设置 InPlaceHostingManager.add_DownloadProgressChanged(EventHandler`1&lt;DownloadProgressChangedEventArgs&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.AllInstances.DownloadProgressChangedRemoveEventHandlerOfDownloadProgressChangedEventArgs">
+            <summary>设置 InPlaceHostingManager.remove_DownloadProgressChanged(EventHandler`1&lt;DownloadProgressChangedEventArgs&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.AllInstances.Execute">
+            <summary>设置 InPlaceHostingManager.Execute() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.AllInstances.GetManifestAsync">
+            <summary>设置 InPlaceHostingManager.GetManifestAsync() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.AllInstances.GetManifestCompletedAddEventHandlerOfGetManifestCompletedEventArgs">
+            <summary>设置 InPlaceHostingManager.add_GetManifestCompleted(EventHandler`1&lt;GetManifestCompletedEventArgs&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.AllInstances.GetManifestCompletedRemoveEventHandlerOfGetManifestCompletedEventArgs">
+            <summary>设置 InPlaceHostingManager.remove_GetManifestCompleted(EventHandler`1&lt;GetManifestCompletedEventArgs&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.AssertApplicationRequirements">
+            <summary>设置 InPlaceHostingManager.AssertApplicationRequirements() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.AssertApplicationRequirementsBoolean">
+            <summary>设置 InPlaceHostingManager.AssertApplicationRequirements(Boolean grantApplicationTrust) 的 填充码</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.Bind(System.IDisposable)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.CancelAsync">
+            <summary>设置 InPlaceHostingManager.CancelAsync() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.ConstructorUri">
+            <summary>设置 InPlaceHostingManager.InPlaceHostingManager(Uri deploymentManifest) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.ConstructorUriBoolean">
+            <summary>设置 InPlaceHostingManager.InPlaceHostingManager(Uri deploymentManifest, Boolean launchInHostProcess) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.Dispose">
+            <summary>设置 InPlaceHostingManager.Dispose() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.DownloadApplicationAsync">
+            <summary>设置 InPlaceHostingManager.DownloadApplicationAsync() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.DownloadApplicationCompletedAddEventHandlerOfDownloadApplicationCompletedEventArgs">
+            <summary>设置 InPlaceHostingManager.add_DownloadApplicationCompleted(EventHandler`1&lt;DownloadApplicationCompletedEventArgs&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.DownloadApplicationCompletedRemoveEventHandlerOfDownloadApplicationCompletedEventArgs">
+            <summary>设置 InPlaceHostingManager.remove_DownloadApplicationCompleted(EventHandler`1&lt;DownloadApplicationCompletedEventArgs&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.DownloadProgressChangedAddEventHandlerOfDownloadProgressChangedEventArgs">
+            <summary>设置 InPlaceHostingManager.add_DownloadProgressChanged(EventHandler`1&lt;DownloadProgressChangedEventArgs&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.DownloadProgressChangedRemoveEventHandlerOfDownloadProgressChangedEventArgs">
+            <summary>设置 InPlaceHostingManager.remove_DownloadProgressChanged(EventHandler`1&lt;DownloadProgressChangedEventArgs&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.Execute">
+            <summary>设置 InPlaceHostingManager.Execute() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.GetManifestAsync">
+            <summary>设置 InPlaceHostingManager.GetManifestAsync() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.GetManifestCompletedAddEventHandlerOfGetManifestCompletedEventArgs">
+            <summary>设置 InPlaceHostingManager.add_GetManifestCompleted(EventHandler`1&lt;GetManifestCompletedEventArgs&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.GetManifestCompletedRemoveEventHandlerOfGetManifestCompletedEventArgs">
+            <summary>设置 InPlaceHostingManager.remove_GetManifestCompleted(EventHandler`1&lt;GetManifestCompletedEventArgs&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.UninstallCustomAddInString">
+            <summary>设置 InPlaceHostingManager.UninstallCustomAddIn(String subscriptionId) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInPlaceHostingManager.UninstallCustomUXApplicationString">
+            <summary>设置 InPlaceHostingManager.UninstallCustomUXApplication(String subscriptionId) 的 填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimInvalidDeploymentException">
+            <summary>System.Deployment.Application.InvalidDeploymentException 的填充码类型</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimInvalidDeploymentException.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimInvalidDeploymentException.#ctor(System.Deployment.Application.InvalidDeploymentException)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimInvalidDeploymentException.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimInvalidDeploymentException.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimInvalidDeploymentException.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInvalidDeploymentException.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimInvalidDeploymentException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInvalidDeploymentException.Constructor">
+            <summary>设置 InvalidDeploymentException.InvalidDeploymentException() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInvalidDeploymentException.ConstructorSerializationInfoStreamingContext">
+            <summary>设置 InvalidDeploymentException.InvalidDeploymentException(SerializationInfo serializationInfo, StreamingContext streamingContext) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInvalidDeploymentException.ConstructorString">
+            <summary>设置 InvalidDeploymentException.InvalidDeploymentException(String message) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimInvalidDeploymentException.ConstructorStringException">
+            <summary>设置 InvalidDeploymentException.InvalidDeploymentException(String message, Exception innerException) 的 填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimSupportedRuntimeMissingException">
+            <summary>System.Deployment.Application.SupportedRuntimeMissingException 的填充码类型</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimSupportedRuntimeMissingException.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimSupportedRuntimeMissingException.#ctor(System.Deployment.Application.SupportedRuntimeMissingException)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimSupportedRuntimeMissingException.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimSupportedRuntimeMissingException.AllInstances.GetObjectDataSerializationInfoStreamingContext">
+            <summary>设置 SupportedRuntimeMissingException.GetObjectData(SerializationInfo info, StreamingContext context) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimSupportedRuntimeMissingException.AllInstances.SupportedRuntimeVersionGet">
+            <summary>设置 SupportedRuntimeMissingException.get_SupportedRuntimeVersion() 的 填充码</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimSupportedRuntimeMissingException.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimSupportedRuntimeMissingException.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimSupportedRuntimeMissingException.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimSupportedRuntimeMissingException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimSupportedRuntimeMissingException.Constructor">
+            <summary>设置 SupportedRuntimeMissingException.SupportedRuntimeMissingException() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimSupportedRuntimeMissingException.ConstructorSerializationInfoStreamingContext">
+            <summary>设置 SupportedRuntimeMissingException.SupportedRuntimeMissingException(SerializationInfo serializationInfo, StreamingContext streamingContext) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimSupportedRuntimeMissingException.ConstructorString">
+            <summary>设置 SupportedRuntimeMissingException.SupportedRuntimeMissingException(String message) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimSupportedRuntimeMissingException.ConstructorStringException">
+            <summary>设置 SupportedRuntimeMissingException.SupportedRuntimeMissingException(String message, Exception innerException) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimSupportedRuntimeMissingException.ConstructorStringUriString">
+            <summary>设置 SupportedRuntimeMissingException.SupportedRuntimeMissingException(String message, Uri supportUrl, String supportedRuntimeVersion) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimSupportedRuntimeMissingException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>设置 SupportedRuntimeMissingException.GetObjectData(SerializationInfo info, StreamingContext context) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimSupportedRuntimeMissingException.SupportedRuntimeVersionGet">
+            <summary>设置 SupportedRuntimeMissingException.get_SupportedRuntimeVersion() 的 填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimTrustNotGrantedException">
+            <summary>System.Deployment.Application.TrustNotGrantedException 的填充码类型</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimTrustNotGrantedException.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimTrustNotGrantedException.#ctor(System.Deployment.Application.TrustNotGrantedException)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimTrustNotGrantedException.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimTrustNotGrantedException.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimTrustNotGrantedException.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimTrustNotGrantedException.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimTrustNotGrantedException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimTrustNotGrantedException.Constructor">
+            <summary>设置 TrustNotGrantedException.TrustNotGrantedException() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimTrustNotGrantedException.ConstructorSerializationInfoStreamingContext">
+            <summary>设置 TrustNotGrantedException.TrustNotGrantedException(SerializationInfo serializationInfo, StreamingContext streamingContext) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimTrustNotGrantedException.ConstructorString">
+            <summary>设置 TrustNotGrantedException.TrustNotGrantedException(String message) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimTrustNotGrantedException.ConstructorStringException">
+            <summary>设置 TrustNotGrantedException.TrustNotGrantedException(String message, Exception innerException) 的 填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimUpdateCheckInfo">
+            <summary>System.Deployment.Application.UpdateCheckInfo 的填充码类型</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimUpdateCheckInfo.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimUpdateCheckInfo.#ctor(System.Deployment.Application.UpdateCheckInfo)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.ShimUpdateCheckInfo.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimUpdateCheckInfo.AllInstances.AvailableVersionGet">
+            <summary>设置 UpdateCheckInfo.get_AvailableVersion() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimUpdateCheckInfo.AllInstances.IsUpdateRequiredGet">
+            <summary>设置 UpdateCheckInfo.get_IsUpdateRequired() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimUpdateCheckInfo.AllInstances.MinimumRequiredVersionGet">
+            <summary>设置 UpdateCheckInfo.get_MinimumRequiredVersion() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimUpdateCheckInfo.AllInstances.UpdateAvailableGet">
+            <summary>设置 UpdateCheckInfo.get_UpdateAvailable() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimUpdateCheckInfo.AllInstances.UpdateSizeBytesGet">
+            <summary>设置 UpdateCheckInfo.get_UpdateSizeBytes() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimUpdateCheckInfo.AvailableVersionGet">
+            <summary>设置 UpdateCheckInfo.get_AvailableVersion() 的 填充码</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimUpdateCheckInfo.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.ShimUpdateCheckInfo.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimUpdateCheckInfo.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimUpdateCheckInfo.ConstructorBooleanVersionBooleanVersionInt64">
+            <summary>设置 UpdateCheckInfo.UpdateCheckInfo(Boolean updateAvailable, Version availableVersion, Boolean isUpdateRequired, Version minimumRequiredVersion, Int64 updateSize) 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimUpdateCheckInfo.IsUpdateRequiredGet">
+            <summary>设置 UpdateCheckInfo.get_IsUpdateRequired() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimUpdateCheckInfo.MinimumRequiredVersionGet">
+            <summary>设置 UpdateCheckInfo.get_MinimumRequiredVersion() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimUpdateCheckInfo.UpdateAvailableGet">
+            <summary>设置 UpdateCheckInfo.get_UpdateAvailable() 的 填充码</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.ShimUpdateCheckInfo.UpdateSizeBytesGet">
+            <summary>设置 UpdateCheckInfo.get_UpdateSizeBytes() 的 填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.StubCompatibleFrameworkMissingException">
+            <summary>System.Deployment.Application.CompatibleFrameworkMissingException 的存根类型</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubCompatibleFrameworkMissingException.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubCompatibleFrameworkMissingException.#ctor(System.String)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubCompatibleFrameworkMissingException.#ctor(System.String,System.Exception)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubCompatibleFrameworkMissingException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubCompatibleFrameworkMissingException.AttachBackingFieldToHelpLink">
+            <summary>附加委托以将 StubCompatibleFrameworkMissingException.HelpLink 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubCompatibleFrameworkMissingException.AttachBackingFieldToSource">
+            <summary>附加委托以将 StubCompatibleFrameworkMissingException.Source 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubCompatibleFrameworkMissingException.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubCompatibleFrameworkMissingException.Data">
+            <summary>设置 Exception.get_Data() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubCompatibleFrameworkMissingException.DataGet">
+            <summary>设置 Exception.get_Data() 的 stub</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubCompatibleFrameworkMissingException.GetBaseException">
+            <summary>设置 Exception.GetBaseException() 的 存根</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubCompatibleFrameworkMissingException.GetBaseException01">
+            <summary>设置 Exception.GetBaseException() 的 stub</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubCompatibleFrameworkMissingException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>设置 CompatibleFrameworkMissingException.GetObjectData(SerializationInfo info, StreamingContext context) 的 存根</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubCompatibleFrameworkMissingException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>设置 CompatibleFrameworkMissingException.GetObjectData(SerializationInfo info, StreamingContext context) 的 stub</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubCompatibleFrameworkMissingException.HelpLink">
+            <summary>设置 Exception.get_HelpLink() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubCompatibleFrameworkMissingException.HelpLinkGet">
+            <summary>设置 Exception.get_HelpLink() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubCompatibleFrameworkMissingException.HelpLinkSetString">
+            <summary>设置 Exception.set_HelpLink(String value) 的 stub</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubCompatibleFrameworkMissingException.InitializeStub">
+            <summary>初始化 type StubCompatibleFrameworkMissingException 的新实例</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubCompatibleFrameworkMissingException.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubCompatibleFrameworkMissingException.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubCompatibleFrameworkMissingException.Message">
+            <summary>设置 Exception.get_Message() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubCompatibleFrameworkMissingException.MessageGet">
+            <summary>设置 Exception.get_Message() 的 stub</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubCompatibleFrameworkMissingException.Source">
+            <summary>设置 Exception.get_Source() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubCompatibleFrameworkMissingException.SourceGet">
+            <summary>设置 Exception.get_Source() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubCompatibleFrameworkMissingException.SourceSetString">
+            <summary>设置 Exception.set_Source(String value) 的 stub</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubCompatibleFrameworkMissingException.StackTrace">
+            <summary>设置 Exception.get_StackTrace() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubCompatibleFrameworkMissingException.StackTraceGet">
+            <summary>设置 Exception.get_StackTrace() 的 stub</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubCompatibleFrameworkMissingException.ToString">
+            <summary>设置 Exception.ToString() 的 存根</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubCompatibleFrameworkMissingException.ToString01">
+            <summary>设置 Exception.ToString() 的 stub</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.StubDependentPlatformMissingException">
+            <summary>System.Deployment.Application.DependentPlatformMissingException 的存根类型</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDependentPlatformMissingException.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDependentPlatformMissingException.#ctor(System.String)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDependentPlatformMissingException.#ctor(System.String,System.Uri)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDependentPlatformMissingException.#ctor(System.String,System.Exception)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDependentPlatformMissingException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDependentPlatformMissingException.AttachBackingFieldToHelpLink">
+            <summary>附加委托以将 StubDependentPlatformMissingException.HelpLink 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDependentPlatformMissingException.AttachBackingFieldToSource">
+            <summary>附加委托以将 StubDependentPlatformMissingException.Source 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubDependentPlatformMissingException.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubDependentPlatformMissingException.Data">
+            <summary>设置 Exception.get_Data() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubDependentPlatformMissingException.DataGet">
+            <summary>设置 Exception.get_Data() 的 stub</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDependentPlatformMissingException.GetBaseException">
+            <summary>设置 Exception.GetBaseException() 的 存根</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubDependentPlatformMissingException.GetBaseException01">
+            <summary>设置 Exception.GetBaseException() 的 stub</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDependentPlatformMissingException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>设置 DependentPlatformMissingException.GetObjectData(SerializationInfo info, StreamingContext context) 的 存根</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubDependentPlatformMissingException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>设置 DependentPlatformMissingException.GetObjectData(SerializationInfo info, StreamingContext context) 的 stub</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubDependentPlatformMissingException.HelpLink">
+            <summary>设置 Exception.get_HelpLink() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubDependentPlatformMissingException.HelpLinkGet">
+            <summary>设置 Exception.get_HelpLink() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubDependentPlatformMissingException.HelpLinkSetString">
+            <summary>设置 Exception.set_HelpLink(String value) 的 stub</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDependentPlatformMissingException.InitializeStub">
+            <summary>初始化 type StubDependentPlatformMissingException 的新实例</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubDependentPlatformMissingException.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubDependentPlatformMissingException.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubDependentPlatformMissingException.Message">
+            <summary>设置 Exception.get_Message() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubDependentPlatformMissingException.MessageGet">
+            <summary>设置 Exception.get_Message() 的 stub</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubDependentPlatformMissingException.Source">
+            <summary>设置 Exception.get_Source() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubDependentPlatformMissingException.SourceGet">
+            <summary>设置 Exception.get_Source() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubDependentPlatformMissingException.SourceSetString">
+            <summary>设置 Exception.set_Source(String value) 的 stub</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubDependentPlatformMissingException.StackTrace">
+            <summary>设置 Exception.get_StackTrace() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubDependentPlatformMissingException.StackTraceGet">
+            <summary>设置 Exception.get_StackTrace() 的 stub</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDependentPlatformMissingException.ToString">
+            <summary>设置 Exception.ToString() 的 存根</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubDependentPlatformMissingException.ToString01">
+            <summary>设置 Exception.ToString() 的 stub</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.StubDeploymentDownloadException">
+            <summary>System.Deployment.Application.DeploymentDownloadException 的存根类型</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDeploymentDownloadException.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDeploymentDownloadException.#ctor(System.String)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDeploymentDownloadException.#ctor(System.String,System.Exception)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDeploymentDownloadException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDeploymentDownloadException.AttachBackingFieldToHelpLink">
+            <summary>附加委托以将 StubDeploymentDownloadException.HelpLink 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDeploymentDownloadException.AttachBackingFieldToSource">
+            <summary>附加委托以将 StubDeploymentDownloadException.Source 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubDeploymentDownloadException.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubDeploymentDownloadException.Data">
+            <summary>设置 Exception.get_Data() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubDeploymentDownloadException.DataGet">
+            <summary>设置 Exception.get_Data() 的 stub</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDeploymentDownloadException.GetBaseException">
+            <summary>设置 Exception.GetBaseException() 的 存根</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubDeploymentDownloadException.GetBaseException01">
+            <summary>设置 Exception.GetBaseException() 的 stub</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDeploymentDownloadException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>设置 DeploymentException.GetObjectData(SerializationInfo info, StreamingContext context) 的 存根</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubDeploymentDownloadException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>设置 DeploymentException.GetObjectData(SerializationInfo info, StreamingContext context) 的 stub</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubDeploymentDownloadException.HelpLink">
+            <summary>设置 Exception.get_HelpLink() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubDeploymentDownloadException.HelpLinkGet">
+            <summary>设置 Exception.get_HelpLink() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubDeploymentDownloadException.HelpLinkSetString">
+            <summary>设置 Exception.set_HelpLink(String value) 的 stub</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDeploymentDownloadException.InitializeStub">
+            <summary>初始化 type StubDeploymentDownloadException 的新实例</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubDeploymentDownloadException.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubDeploymentDownloadException.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubDeploymentDownloadException.Message">
+            <summary>设置 Exception.get_Message() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubDeploymentDownloadException.MessageGet">
+            <summary>设置 Exception.get_Message() 的 stub</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubDeploymentDownloadException.Source">
+            <summary>设置 Exception.get_Source() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubDeploymentDownloadException.SourceGet">
+            <summary>设置 Exception.get_Source() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubDeploymentDownloadException.SourceSetString">
+            <summary>设置 Exception.set_Source(String value) 的 stub</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubDeploymentDownloadException.StackTrace">
+            <summary>设置 Exception.get_StackTrace() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubDeploymentDownloadException.StackTraceGet">
+            <summary>设置 Exception.get_StackTrace() 的 stub</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDeploymentDownloadException.ToString">
+            <summary>设置 Exception.ToString() 的 存根</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubDeploymentDownloadException.ToString01">
+            <summary>设置 Exception.ToString() 的 stub</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.StubDeploymentException">
+            <summary>System.Deployment.Application.DeploymentException 的存根类型</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDeploymentException.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDeploymentException.#ctor(System.String)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDeploymentException.#ctor(System.String,System.Exception)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDeploymentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDeploymentException.AttachBackingFieldToHelpLink">
+            <summary>附加委托以将 StubDeploymentException.HelpLink 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDeploymentException.AttachBackingFieldToSource">
+            <summary>附加委托以将 StubDeploymentException.Source 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubDeploymentException.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubDeploymentException.Data">
+            <summary>设置 Exception.get_Data() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubDeploymentException.DataGet">
+            <summary>设置 Exception.get_Data() 的 stub</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDeploymentException.GetBaseException">
+            <summary>设置 Exception.GetBaseException() 的 存根</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubDeploymentException.GetBaseException01">
+            <summary>设置 Exception.GetBaseException() 的 stub</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDeploymentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>设置 DeploymentException.GetObjectData(SerializationInfo info, StreamingContext context) 的 存根</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubDeploymentException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>设置 DeploymentException.GetObjectData(SerializationInfo info, StreamingContext context) 的 stub</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubDeploymentException.HelpLink">
+            <summary>设置 Exception.get_HelpLink() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubDeploymentException.HelpLinkGet">
+            <summary>设置 Exception.get_HelpLink() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubDeploymentException.HelpLinkSetString">
+            <summary>设置 Exception.set_HelpLink(String value) 的 stub</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDeploymentException.InitializeStub">
+            <summary>初始化 type StubDeploymentException 的新实例</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubDeploymentException.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubDeploymentException.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubDeploymentException.Message">
+            <summary>设置 Exception.get_Message() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubDeploymentException.MessageGet">
+            <summary>设置 Exception.get_Message() 的 stub</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubDeploymentException.Source">
+            <summary>设置 Exception.get_Source() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubDeploymentException.SourceGet">
+            <summary>设置 Exception.get_Source() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubDeploymentException.SourceSetString">
+            <summary>设置 Exception.set_Source(String value) 的 stub</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubDeploymentException.StackTrace">
+            <summary>设置 Exception.get_StackTrace() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubDeploymentException.StackTraceGet">
+            <summary>设置 Exception.get_StackTrace() 的 stub</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDeploymentException.ToString">
+            <summary>设置 Exception.ToString() 的 存根</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubDeploymentException.ToString01">
+            <summary>设置 Exception.ToString() 的 stub</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.StubDeploymentServiceCom">
+            <summary>System.Deployment.Application.DeploymentServiceCom 的存根类型</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDeploymentServiceCom.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubDeploymentServiceCom.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubDeploymentServiceCom.InitializeStub">
+            <summary>初始化 type StubDeploymentServiceCom 的新实例</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubDeploymentServiceCom.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubDeploymentServiceCom.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.StubInPlaceHostingManager">
+            <summary>System.Deployment.Application.InPlaceHostingManager 的存根类型</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubInPlaceHostingManager.#ctor(System.Uri)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubInPlaceHostingManager.#ctor(System.Uri,System.Boolean)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubInPlaceHostingManager.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubInPlaceHostingManager.InitializeStub">
+            <summary>初始化 type StubInPlaceHostingManager 的新实例</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubInPlaceHostingManager.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubInPlaceHostingManager.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.StubInvalidDeploymentException">
+            <summary>System.Deployment.Application.InvalidDeploymentException 的存根类型</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubInvalidDeploymentException.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubInvalidDeploymentException.#ctor(System.String)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubInvalidDeploymentException.#ctor(System.String,System.Exception)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubInvalidDeploymentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubInvalidDeploymentException.AttachBackingFieldToHelpLink">
+            <summary>附加委托以将 StubInvalidDeploymentException.HelpLink 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubInvalidDeploymentException.AttachBackingFieldToSource">
+            <summary>附加委托以将 StubInvalidDeploymentException.Source 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubInvalidDeploymentException.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubInvalidDeploymentException.Data">
+            <summary>设置 Exception.get_Data() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubInvalidDeploymentException.DataGet">
+            <summary>设置 Exception.get_Data() 的 stub</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubInvalidDeploymentException.GetBaseException">
+            <summary>设置 Exception.GetBaseException() 的 存根</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubInvalidDeploymentException.GetBaseException01">
+            <summary>设置 Exception.GetBaseException() 的 stub</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubInvalidDeploymentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>设置 DeploymentException.GetObjectData(SerializationInfo info, StreamingContext context) 的 存根</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubInvalidDeploymentException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>设置 DeploymentException.GetObjectData(SerializationInfo info, StreamingContext context) 的 stub</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubInvalidDeploymentException.HelpLink">
+            <summary>设置 Exception.get_HelpLink() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubInvalidDeploymentException.HelpLinkGet">
+            <summary>设置 Exception.get_HelpLink() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubInvalidDeploymentException.HelpLinkSetString">
+            <summary>设置 Exception.set_HelpLink(String value) 的 stub</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubInvalidDeploymentException.InitializeStub">
+            <summary>初始化 type StubInvalidDeploymentException 的新实例</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubInvalidDeploymentException.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubInvalidDeploymentException.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubInvalidDeploymentException.Message">
+            <summary>设置 Exception.get_Message() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubInvalidDeploymentException.MessageGet">
+            <summary>设置 Exception.get_Message() 的 stub</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubInvalidDeploymentException.Source">
+            <summary>设置 Exception.get_Source() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubInvalidDeploymentException.SourceGet">
+            <summary>设置 Exception.get_Source() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubInvalidDeploymentException.SourceSetString">
+            <summary>设置 Exception.set_Source(String value) 的 stub</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubInvalidDeploymentException.StackTrace">
+            <summary>设置 Exception.get_StackTrace() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubInvalidDeploymentException.StackTraceGet">
+            <summary>设置 Exception.get_StackTrace() 的 stub</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubInvalidDeploymentException.ToString">
+            <summary>设置 Exception.ToString() 的 存根</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubInvalidDeploymentException.ToString01">
+            <summary>设置 Exception.ToString() 的 stub</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.StubSupportedRuntimeMissingException">
+            <summary>System.Deployment.Application.SupportedRuntimeMissingException 的存根类型</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubSupportedRuntimeMissingException.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubSupportedRuntimeMissingException.#ctor(System.String)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubSupportedRuntimeMissingException.#ctor(System.String,System.Exception)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubSupportedRuntimeMissingException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubSupportedRuntimeMissingException.AttachBackingFieldToHelpLink">
+            <summary>附加委托以将 StubSupportedRuntimeMissingException.HelpLink 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubSupportedRuntimeMissingException.AttachBackingFieldToSource">
+            <summary>附加委托以将 StubSupportedRuntimeMissingException.Source 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubSupportedRuntimeMissingException.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubSupportedRuntimeMissingException.Data">
+            <summary>设置 Exception.get_Data() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubSupportedRuntimeMissingException.DataGet">
+            <summary>设置 Exception.get_Data() 的 stub</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubSupportedRuntimeMissingException.GetBaseException">
+            <summary>设置 Exception.GetBaseException() 的 存根</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubSupportedRuntimeMissingException.GetBaseException01">
+            <summary>设置 Exception.GetBaseException() 的 stub</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubSupportedRuntimeMissingException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>设置 SupportedRuntimeMissingException.GetObjectData(SerializationInfo info, StreamingContext context) 的 存根</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubSupportedRuntimeMissingException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>设置 SupportedRuntimeMissingException.GetObjectData(SerializationInfo info, StreamingContext context) 的 stub</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubSupportedRuntimeMissingException.HelpLink">
+            <summary>设置 Exception.get_HelpLink() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubSupportedRuntimeMissingException.HelpLinkGet">
+            <summary>设置 Exception.get_HelpLink() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubSupportedRuntimeMissingException.HelpLinkSetString">
+            <summary>设置 Exception.set_HelpLink(String value) 的 stub</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubSupportedRuntimeMissingException.InitializeStub">
+            <summary>初始化 type StubSupportedRuntimeMissingException 的新实例</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubSupportedRuntimeMissingException.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubSupportedRuntimeMissingException.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubSupportedRuntimeMissingException.Message">
+            <summary>设置 Exception.get_Message() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubSupportedRuntimeMissingException.MessageGet">
+            <summary>设置 Exception.get_Message() 的 stub</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubSupportedRuntimeMissingException.Source">
+            <summary>设置 Exception.get_Source() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubSupportedRuntimeMissingException.SourceGet">
+            <summary>设置 Exception.get_Source() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubSupportedRuntimeMissingException.SourceSetString">
+            <summary>设置 Exception.set_Source(String value) 的 stub</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubSupportedRuntimeMissingException.StackTrace">
+            <summary>设置 Exception.get_StackTrace() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubSupportedRuntimeMissingException.StackTraceGet">
+            <summary>设置 Exception.get_StackTrace() 的 stub</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubSupportedRuntimeMissingException.ToString">
+            <summary>设置 Exception.ToString() 的 存根</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubSupportedRuntimeMissingException.ToString01">
+            <summary>设置 Exception.ToString() 的 stub</summary>
+        </member>
+        <member name="T:System.Deployment.Application.Fakes.StubTrustNotGrantedException">
+            <summary>System.Deployment.Application.TrustNotGrantedException 的存根类型</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubTrustNotGrantedException.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubTrustNotGrantedException.#ctor(System.String)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubTrustNotGrantedException.#ctor(System.String,System.Exception)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubTrustNotGrantedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubTrustNotGrantedException.AttachBackingFieldToHelpLink">
+            <summary>附加委托以将 StubTrustNotGrantedException.HelpLink 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubTrustNotGrantedException.AttachBackingFieldToSource">
+            <summary>附加委托以将 StubTrustNotGrantedException.Source 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubTrustNotGrantedException.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubTrustNotGrantedException.Data">
+            <summary>设置 Exception.get_Data() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubTrustNotGrantedException.DataGet">
+            <summary>设置 Exception.get_Data() 的 stub</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubTrustNotGrantedException.GetBaseException">
+            <summary>设置 Exception.GetBaseException() 的 存根</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubTrustNotGrantedException.GetBaseException01">
+            <summary>设置 Exception.GetBaseException() 的 stub</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubTrustNotGrantedException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>设置 DeploymentException.GetObjectData(SerializationInfo info, StreamingContext context) 的 存根</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubTrustNotGrantedException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>设置 DeploymentException.GetObjectData(SerializationInfo info, StreamingContext context) 的 stub</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubTrustNotGrantedException.HelpLink">
+            <summary>设置 Exception.get_HelpLink() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubTrustNotGrantedException.HelpLinkGet">
+            <summary>设置 Exception.get_HelpLink() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubTrustNotGrantedException.HelpLinkSetString">
+            <summary>设置 Exception.set_HelpLink(String value) 的 stub</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubTrustNotGrantedException.InitializeStub">
+            <summary>初始化 type StubTrustNotGrantedException 的新实例</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubTrustNotGrantedException.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubTrustNotGrantedException.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubTrustNotGrantedException.Message">
+            <summary>设置 Exception.get_Message() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubTrustNotGrantedException.MessageGet">
+            <summary>设置 Exception.get_Message() 的 stub</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubTrustNotGrantedException.Source">
+            <summary>设置 Exception.get_Source() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubTrustNotGrantedException.SourceGet">
+            <summary>设置 Exception.get_Source() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubTrustNotGrantedException.SourceSetString">
+            <summary>设置 Exception.set_Source(String value) 的 stub</summary>
+        </member>
+        <member name="P:System.Deployment.Application.Fakes.StubTrustNotGrantedException.StackTrace">
+            <summary>设置 Exception.get_StackTrace() 的 stub</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubTrustNotGrantedException.StackTraceGet">
+            <summary>设置 Exception.get_StackTrace() 的 stub</summary>
+        </member>
+        <member name="M:System.Deployment.Application.Fakes.StubTrustNotGrantedException.ToString">
+            <summary>设置 Exception.ToString() 的 存根</summary>
+        </member>
+        <member name="F:System.Deployment.Application.Fakes.StubTrustNotGrantedException.ToString01">
+            <summary>设置 Exception.ToString() 的 stub</summary>
+        </member>
+        <member name="T:System.Deployment.Internal.CodeSigning.Fakes.ShimRSAPKCS1SHA256SignatureDescription">
+            <summary>System.Deployment.Internal.CodeSigning.RSAPKCS1SHA256SignatureDescription 的填充码类型</summary>
+        </member>
+        <member name="M:System.Deployment.Internal.CodeSigning.Fakes.ShimRSAPKCS1SHA256SignatureDescription.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Deployment.Internal.CodeSigning.Fakes.ShimRSAPKCS1SHA256SignatureDescription.#ctor(System.Deployment.Internal.CodeSigning.RSAPKCS1SHA256SignatureDescription)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Deployment.Internal.CodeSigning.Fakes.ShimRSAPKCS1SHA256SignatureDescription.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:System.Deployment.Internal.CodeSigning.Fakes.ShimRSAPKCS1SHA256SignatureDescription.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Deployment.Internal.CodeSigning.Fakes.ShimRSAPKCS1SHA256SignatureDescription.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Deployment.Internal.CodeSigning.Fakes.ShimRSAPKCS1SHA256SignatureDescription.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Deployment.Internal.CodeSigning.Fakes.ShimRSAPKCS1SHA256SignatureDescription.Constructor">
+            <summary>设置 RSAPKCS1SHA256SignatureDescription.RSAPKCS1SHA256SignatureDescription() 的 填充码</summary>
+        </member>
+    </members>
+</doc>
